@@ -8,6 +8,7 @@ Secure File Scan is a threat intelligence-based website that provides malware de
 
 Insert gif or link to demo
 
+
 ## Features
 
 - **Malware Detection:** Scan uploaded files for malware using a comprehensive threat intelligence database.
@@ -15,6 +16,8 @@ Insert gif or link to demo
 - **API Integration:** Integrated Flask-based API and external malware analyzing APIs for enhanced research capabilities.
 - **Malware Reporting Portal:** Allows malware researchers to report new malware to the database.
 - **Real-time Dashboard:** Displays real-time information on recent cyber attacks, reported malware, IOCs, top countries in threat intelligence, and a pie chart showing the distribution of companies affected by phishing attacks.
+- **Data Encryption:** Utilizes Blowfish encryption algorithm for secure data storage. Bcrypt is employed with a 128-bit salt and encrypts a 192-bit magic value, taking advantage of the expensive key setup in eksblowfish.
+
 ## API Reference
 
 #### Get all items
@@ -42,9 +45,32 @@ Insert gif or link to demo
 Takes two numbers and returns the sum.
 
 
-## Documentation
+## Requirements
 
-[Documentation](https://linktodocumentation)
+Ensure you have the following prerequisites installed:
+
+- Python 3.10 or above
+- Flask and its dependencies
+- hashlib
+- flask_sqlalchemy
+- flask_login
+- flask_wtf
+- wtforms
+- flask_bcrypt
+- werkzeug
+- requests
+- subprocess
+- logging
+
+#### Install Dependencies
+
+Install the required Python libraries using the following command:
+
+    pip install -r requirements.txt
+
+        OR
+
+    pip install flask flask_sqlalchemy flask_login flask_wtf wtforms flask_bcrypt werkzeug requests
 
 
 ## Acknowledgements
