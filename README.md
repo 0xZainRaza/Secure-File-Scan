@@ -66,10 +66,6 @@ Install the required Python libraries using the following command:
 
     pip install -r requirements.txt
 
-        OR
-
-    pip install flask flask_sqlalchemy flask_login flask_wtf wtforms flask_bcrypt werkzeug requests
-
 
 ## Acknowledgements
 
