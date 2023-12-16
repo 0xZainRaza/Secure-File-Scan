@@ -94,7 +94,7 @@ To use the Secure File Scan project, follow these steps:
 - [@Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT LICENSE](https://github.com/0xZainRaza/Secure-File-Scan/blob/main/LICENSE)
 
 
 
