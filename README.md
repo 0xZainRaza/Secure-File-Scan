@@ -1,6 +1,12 @@
+
 # Secure File Scan
 
 Secure File Scan is a threat intelligence-based website that provides malware detection and analysis services. It includes a dedicated database for malware detection, API integration, and a reporting portal for malware researchers.
+
+
+## Demo
+
+Insert gif or link to demo
 
 ## Features
 
@@ -9,18 +15,48 @@ Secure File Scan is a threat intelligence-based website that provides malware de
 - **API Integration:** Integrated Flask-based API and external malware analyzing APIs for enhanced research capabilities.
 - **Malware Reporting Portal:** Allows malware researchers to report new malware to the database.
 - **Real-time Dashboard:** Displays real-time information on recent cyber attacks, reported malware, IOCs, top countries in threat intelligence, and a pie chart showing the distribution of companies affected by phishing attacks.
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
 
 ## Problem Solved
 
 Secure File Scan addresses the need for a centralized platform for malware detection and research. By combining a robust threat intelligence database, API integration, and a reporting portal, it streamlines the process for users, eliminating the need to visit multiple websites for malware analysis.
-
-## Authors
-- [@Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
-- [@Sarim Muhammad khan](https://www.linkedin.com/in/sarim-mohammed-khan-65bb921a3/)
-- [@Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
-- [@Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
-
-
 ## Usage
 
 To use the Secure File Scan project, follow these steps:
@@ -31,3 +67,12 @@ To use the Secure File Scan project, follow these steps:
    git clone https://github.com/your-username/secure-file-scan.git
    cd secure-file-scan
    python app.py
+## Authors
+- [@Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
+- [@Sarim Muhammad khan](https://www.linkedin.com/in/sarim-mohammed-khan-65bb921a3/)
+- [@Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
+- [@Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
