@@ -59,8 +59,6 @@ Ensure you have the following prerequisites installed:
 - flask_bcrypt
 - werkzeug
 - requests
-- subprocess
-- logging
 
 #### Install Dependencies
 
