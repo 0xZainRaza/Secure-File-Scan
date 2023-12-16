@@ -8,11 +8,18 @@ Secure File Scan is a threat intelligence-based website that provides malware de
 - **Detailed Information:** Retrieve detailed information and YARA rules for identified malware.
 - **API Integration:** Integrated Flask-based API and external malware analyzing APIs for enhanced research capabilities.
 - **Malware Reporting Portal:** Allows malware researchers to report new malware to the database.
-- **Real-time Dashboard:** Displays real-time information on recent cyber attacks, reported malwares, IOCs, top countries in threat intelligence, and a pie chart showing the distribution of companies affected by phishing attacks.
+- **Real-time Dashboard:** Displays real-time information on recent cyber attacks, reported malware, IOCs, top countries in threat intelligence, and a pie chart showing the distribution of companies affected by phishing attacks.
 
 ## Problem Solved
 
 Secure File Scan addresses the need for a centralized platform for malware detection and research. By combining a robust threat intelligence database, API integration, and a reporting portal, it streamlines the process for users, eliminating the need to visit multiple websites for malware analysis.
+
+## Authors
+- [@Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
+- [@Sarim Muhammad khan](https://www.linkedin.com/in/sarim-mohammed-khan-65bb921a3/)
+- [@Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
+- [@Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
+
 
 ## Usage
 
