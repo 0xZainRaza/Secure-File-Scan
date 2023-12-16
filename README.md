@@ -121,9 +121,10 @@ To use the Secure File Scan project, follow these steps:
 
 7. Operational Efficiency in Cybersecurity Platforms,
    [Operational Efficiency](www.example.com/operational-efficiency-cybersecurity)
+   
 
-8. SSL/TLS Overview,
+9. SSL/TLS Overview,
    [SSL/TLS Overview](www.example.com/ssl-tls-overview)
 
-9. Florian Roth, the creator of Yara Rules,
+10. Florian Roth, the creator of Yara Rules,
    [Florian Roth - Yara Rules](https://github.com/Neo23x0)
