@@ -76,3 +76,34 @@ To use the Secure File Scan project, follow these steps:
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+
+
+
+## References
+
+1. VirusTotal API Documentation and references,
+   [VirusTotal API](https://docs.virustotal.com/reference/public-vs-premium-api)
+
+2. Malware Bazaar API Documentation and references,
+   [Malware Bazaar API](https://bazaar.abuse.ch/api/)
+
+3. Color Psychology in UI Design,
+   [Color Psychology](www.example.com/color-psychology)
+
+4. Effective Information Presentation Strategies,
+   [Information Presentation Strategies](www.example.com/information-presentation)
+
+5. User-Centric Design Principles,
+   [User-Centric Design Principles](www.example.com/user-centric-design)
+
+6. Python Logging Documentation,
+   [Python Logging](https://docs.python.org/3/library/logging.html)
+
+7. Operational Efficiency in Cybersecurity Platforms,
+   [Operational Efficiency](www.example.com/operational-efficiency-cybersecurity)
+
+8. SSL/TLS Overview,
+   [SSL/TLS Overview](www.example.com/ssl-tls-overview)
+
+9. Florian Roth, the creator of Yara Rules,
+   [Florian Roth - Yara Rules](https://github.com/Neo23x0)
