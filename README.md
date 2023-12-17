@@ -3,10 +3,46 @@
 
 Secure File Scan is a threat intelligence-based website that provides malware detection and analysis services. It includes a dedicated database for malware detection, API integration, and a reporting portal for malware researchers.
 
+
 ## Demo
 
 Insert gif or link to demo
 
+
+## Requirements
+
+Ensure you have Python3.10 or above along with these libraries:
+
+- Flask and its dependencies
+- hashlib
+- flask_sqlalchemy
+- flask_login
+- flask_wtf
+- wtforms
+- flask_bcrypt
+- werkzeug
+- requests
+- subprocess
+- logging
+
+#### Install Dependencies
+
+Install the required Python libraries using the following command:
+
+    pip install -r requirements.txt
+
+
+
+## Usage
+
+To use the Secure File Scan project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/secure-file-scan.git
+   cd secure-file-scan
+   python app.py
 
 ## Features
 
@@ -43,37 +79,7 @@ Insert gif or link to demo
 
 Takes two numbers and returns the sum.
 
-
-## Requirements
-
-Ensure you have the following prerequisites installed:
-
-- Python 3.10 or above
-- Flask and its dependencies
-- hashlib
-- flask_sqlalchemy
-- flask_login
-- flask_wtf
-- wtforms
-- flask_bcrypt
-- werkzeug
-- requests
-
-#### Install Dependencies
-
-Install the required Python libraries using the following command:
-
-    pip install -r requirements.txt
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## Problem Solved
+## Proposed Solution
 
 In the realm of cybersecurity, the proliferation of malware poses a constant threat to individuals and organizations alike. **Secure File Scan** steps in to alleviate this concern by offering a comprehensive and centralized solution for malware detection and research. The multifaceted approach taken by **Secure File Scan** addresses several critical aspects of cybersecurity:
 
@@ -87,17 +93,12 @@ In the realm of cybersecurity, the proliferation of malware poses a constant thr
 
 By consolidating these features into a single platform, **Secure File Scan** eliminates the need for users to navigate disparate sources for malware analysis. This unified approach not only enhances the overall efficiency of cybersecurity efforts but also promotes a shared responsibility in combating the evolving landscape of cyber threats.
 
+## Acknowledgements
 
-## Usage
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-To use the Secure File Scan project, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/0xZainRaza/secure-file-scan.git
-   cd secure-file-scan
-   python app.py
 
 ## Authors
 - [@Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
@@ -105,10 +106,10 @@ To use the Secure File Scan project, follow these steps:
 - [@Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
 - [@Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
 
+
 ## License
 
-[MIT LICENSE](https://github.com/0xZainRaza/Secure-File-Scan/blob/main/LICENSE)
-
+[MIT license](https://choosealicense.com/licenses/mit/)
 
 
 
@@ -134,10 +135,9 @@ To use the Secure File Scan project, follow these steps:
 
 7. Operational Efficiency in Cybersecurity Platforms,
    [Operational Efficiency](www.example.com/operational-efficiency-cybersecurity)
-   
 
-9. SSL/TLS Overview,
+8. SSL/TLS Overview,
    [SSL/TLS Overview](www.example.com/ssl-tls-overview)
 
-10. Florian Roth, the creator of Yara Rules,
+9. Florian Roth, the creator of Yara Rules,
    [Florian Roth - Yara Rules](https://github.com/Neo23x0)
