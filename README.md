@@ -13,6 +13,8 @@ Insert gif or link to demo
 
 Ensure you have Python3.10 or above along with these libraries:
 
+#### Dependencies
+
 - Flask and its dependencies
 - hashlib
 - flask_sqlalchemy
@@ -25,7 +27,7 @@ Ensure you have Python3.10 or above along with these libraries:
 - subprocess
 - logging
 
-#### Install Dependencies
+#### install
 
 Install the required Python libraries using the following command:
 
@@ -53,6 +55,7 @@ To use the Secure File Scan project, follow these steps:
 - **Real-time Dashboard:** Displays real-time information on recent cyber attacks, reported malware, IOCs, top countries in threat intelligence, and a pie chart showing the distribution of companies affected by phishing attacks.
 - **Data Encryption:** Utilizes Blowfish encryption algorithm for secure data storage. Bcrypt is employed with a 128-bit salt and encrypts a 192-bit magic value, taking advantage of the expensive key setup in eksblowfish.
 
+
 ## API Reference
 
 #### Get all items
@@ -79,6 +82,8 @@ To use the Secure File Scan project, follow these steps:
 
 Takes two numbers and returns the sum.
 
+
+
 ## Proposed Solution
 
 In the realm of cybersecurity, the proliferation of malware poses a constant threat to individuals and organizations alike. **Secure File Scan** steps in to alleviate this concern by offering a comprehensive and centralized solution for malware detection and research. The multifaceted approach taken by **Secure File Scan** addresses several critical aspects of cybersecurity:
@@ -93,11 +98,13 @@ In the realm of cybersecurity, the proliferation of malware poses a constant thr
 
 By consolidating these features into a single platform, **Secure File Scan** eliminates the need for users to navigate disparate sources for malware analysis. This unified approach not only enhances the overall efficiency of cybersecurity efforts but also promotes a shared responsibility in combating the evolving landscape of cyber threats.
 
+
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
 
 
 ## Authors
@@ -106,10 +113,10 @@ By consolidating these features into a single platform, **Secure File Scan** eli
 - [@Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
 - [@Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
 
-
 ## License
 
 [MIT license](https://choosealicense.com/licenses/mit/)
+
 
 
 
