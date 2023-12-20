@@ -122,11 +122,11 @@ GET /api/malwarebazaar/recent
 
 ## References
 
-6. Python Logging Documentation,
+1. Python Logging Documentation,
    [Python Logging](https://docs.python.org/3/library/logging.html)
 
-8. SSL/TLS Overview,
+2. SSL/TLS Overview,
    [SSL/TLS Overview](www.example.com/ssl-tls-overview)
 
-9. Florian Roth, the creator of Yara Rules,
+3. Florian Roth, the creator of Yara Rules,
    [Florian Roth - Yara Rules](https://github.com/Neo23x0)
