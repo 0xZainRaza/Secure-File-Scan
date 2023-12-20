@@ -17,8 +17,7 @@ Secure File Scan is a threat intelligence-based website that provides malware de
 
 ## Demo
 
-Insert gif or link to demo
-
+https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/96bee210-5815-4452-ad6d-f9b41016cceb
 
 
 ## Proposed Solution
