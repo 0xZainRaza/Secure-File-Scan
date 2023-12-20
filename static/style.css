@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.user {
+    width: 6%;
+    position: absolute;
+    top: 15px; /* Adjust this value to lift the image up by your desired amount */
+    left: 370px;
+    filter: brightness(100);
+}
+
+.password{
+    position: absolute;
+    top: 15px; /* Adjust this value to lift the image up by your desired amount */
+    left: 370px;
+}
+.navbar ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: absolute;
+    top: 50%;  /* Updated property */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    text-align: right;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;   
+}
+
+
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+       
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;    
+}
+
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;   
+}
+
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+
+.wrapper .btn {
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    border: 2px solid #009688;;
+    outline: none;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+        
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+.register-link p a:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+.uploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#fileNameDisplay {
+    display: flex;
+    flex-direction: column; /* Updated to column layout */
+    align-items: center;
+    margin-top: 10px;
+}
+
+#fileName {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px; /* Add margin to create space between the button and the file name */
+}
+
+
