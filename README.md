@@ -3,8 +3,6 @@
 
 
 
-# Secure File Scan
-
 Secure File Scan is a threat intelligence-based website that provides malware detection and analysis services. It includes a dedicated database for malware detection, API integration, and a reporting portal for malware researchers.
 
 
