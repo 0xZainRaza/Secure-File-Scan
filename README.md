@@ -115,7 +115,7 @@ GET /api/malwarebazaar/recent
 
 ## Authors
 - [Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
-- [arim Muhammad khan](https://www.linkedin.com/in/sarim-mohammed-khan-65bb921a3/)
+- [Sarim Muhammad khan](https://www.linkedin.com/in/sarim-mohammed-khan-65bb921a3/)
 - [Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
 - [Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
 
