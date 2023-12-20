@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure File Scan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function chooseFile() {
+            document.getElementById('fileInput').click();
+        }
+
+        function displayFileName() {
+            var fileInput = document.getElementById('fileInput');
+            var fileNameSpan = document.getElementById('fileName');
+            var selectedFile = fileInput.files[0];
+
+            if (selectedFile) {
+            fileNameSpan.innerHTML = 'File selected: ' + selectedFile.name;
+            fileNameDisplay.style.display = 'flex';
+            fileNameDisplay.style.justifyContent = 'center'; // Center horizontally
+            fileNameDisplay.style.alignItems = 'center'; // Center vertically
+            fileNameSpan.style.color = 'White'; // Set text color to green (change as needed)
+            fileNameSpan.style.fontWeight = 'bold'; // Make text bold
+            // Add more styling properties as needed
+        } else {
+            fileNameSpan.innerHTML = '';
+            fileNameDisplay.style.display = 'none'; // Hide the container if no file is selected
+            // Reset styling properties if the file is not selected
+            fileNameSpan.style.color = '';
+            fileNameSpan.style.fontWeight = '';
+            // Reset other styling properties if needed
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="{{ url_for('static', filename='logo2a.png') }}" class="logo">
+            <ul>
+                <li><a href="/signup">Sign Up</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Secure File Scan</h1>
+            <p>Analyze suspicious files, domains, IPs, and URLs to detect malware and other <br>breaches, automatically share them with the security community.</p>
+            
+            <!-- Add the form element with an action attribute pointing to the server route -->
+            <form id="uploadForm" action="{{ url_for('home') }}" method="post" enctype="multipart/form-data">
+                {{ form.hidden_tag() }}
+                <input type="file" id="fileInput" name="file" style="display:none" onchange="displayFileName()">
+                <button type="button" onclick="chooseFile()" class="upload-btn"><span></span>Choose File</button>              
+                <button type="submit" class="upload-btn"><span></span>Upload File</button>
+                <div id="fileNameDisplay">  
+                    <div id="fileName"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

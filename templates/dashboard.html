@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Secure File Scan</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/typicons/typicons.css">
+  <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" type="text/css" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the canvas element
+      var ctx = document.getElementById('myDonutChart').getContext('2d');
+  
+      // Create the donut chart
+      var myDonutChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Financial Institutions', 'Educational Institutions', 'Government Agencies', 'Technology Companies', 'Healthcare', 'Other'],
+          datasets: [{
+            data: [25, 10, 15, 20, 20, 10],
+            backgroundColor: [
+              'rgba(255, 99, 132, 0.7)',
+              'rgba(54, 162, 235, 0.7)',
+              'rgba(255, 206, 86, 0.7)',
+              'rgba(75, 192, 192, 0.7)',
+              'rgba(153, 102, 255, 0.7)',
+              'rgba(255, 159, 64, 0.7)',
+            ],
+            borderColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(255, 206, 86, 1)',
+              'rgba(75, 192, 192, 1)',
+              'rgba(153, 102, 255, 1)',
+              'rgba(255, 159, 64, 1)',
+            ],
+            borderWidth: 1,
+          }],
+        },
+        options: {
+          cutout: '50%', // Adjust the cutout percentage to create a donut
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: true,
+              position: 'bottom',
+              
+            },
+          },
+        },
+      });
+    });
+</script>
+
+  
+  
+</head>
+<body class="with-welcome-text">
+  <div class="container-scroller">
+    <div class="row p-0 m-0 proBanner" id="proBanner"> 
+      <div class="col-md-12 p-0 m-0">
+        </div>
+      </div>
+    </div> 
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+
+      <div class="navbar-menu-wrapper d-flex align-items-top"> 
+        <ul class="navbar-nav">
+          <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
+            <h1 class="welcome-text">Welcome Back, <span class="text-black fw-bold">{{ user_first_name }}</span></h1>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          
+          <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+            <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="img-xs rounded-circle" src="{{ url_for('static', filename='logo2a.png') }}" alt="Profile image"> </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+              <div class="dropdown-header text-center">
+                <img class="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image">
+                <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
+                <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
+              </div>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My Profile <span class="badge badge-pill badge-danger">1</span></a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Messages</a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activity</a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> FAQ</a>
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Sign Out</a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-bs-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+
+      <div id="right-sidebar" class="settings-panel">
+        <i class="settings-close ti-close"></i>
+        <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="todo-tab" data-bs-toggle="tab" href="#todo-section" role="tab" aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="chats-tab" data-bs-toggle="tab" href="#chats-section" role="tab" aria-controls="chats-section">CHATS</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="setting-content">
+          <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel" aria-labelledby="todo-section">
+            <div class="add-items d-flex px-3 mb-0">
+              <form class="form w-100">
+                <div class="form-group d-flex">
+                  <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
+                  <button type="submit" class="add btn btn-primary todo-list-add-btn" id="add-task">Add</button>
+                </div>
+              </form>
+            </div>
+            <div class="list-wrapper px-3">
+              <ul class="d-flex flex-column-reverse todo-list">
+                <li>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox">
+                      Team review meeting at 3.00 PM
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox">
+                      Prepare for presentation
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox">
+                      Resolve all the low priority tickets due today
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li class="completed">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox" checked="">
+                      Schedule meeting for next week
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+                <li class="completed">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="checkbox" type="checkbox" checked="">
+                      Project review
+                    </label>
+                  </div>
+                  <i class="remove ti-close"></i>
+                </li>
+              </ul>
+            </div>
+            <h4 class="px-3 text-muted mt-5 fw-light mb-0">Events</h4>
+            <div class="events pt-4 px-3">
+              <div class="wrapper d-flex mb-2">
+                <i class="ti-control-record text-primary me-2"></i>
+                <span>Feb 11 2018</span>
+              </div>
+              <p class="mb-0 font-weight-thin text-gray">Creating component page build a js</p>
+              <p class="text-gray mb-0">The total number of sessions</p>
+            </div>
+            <div class="events pt-4 px-3">
+              <div class="wrapper d-flex mb-2">
+                <i class="ti-control-record text-primary me-2"></i>
+                <span>Feb 7 2018</span>
+              </div>
+              <p class="mb-0 font-weight-thin text-gray">Meeting with Alisa</p>
+              <p class="text-gray mb-0 ">Call Sarah Graves</p>
+            </div>
+          </div>
+          <!-- To do section tab ends -->
+          <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-section">
+            <div class="d-flex align-items-center justify-content-between border-bottom">
+              <p class="settings-heading border-top-0 mb-3 pl-3 pt-0 border-bottom-0 pb-0">Friends</p>
+              <small class="settings-heading border-top-0 mb-3 pt-0 border-bottom-0 pb-0 pr-3 fw-normal">See All</small>
+            </div>
+            <ul class="chat-list">
+              <li class="list active">
+                <div class="profile"><img src="images/faces/face1.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Thomas Douglas</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">19 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face2.jpg" alt="image"><span class="offline"></span></div>
+                <div class="info">
+                  <div class="wrapper d-flex">
+                    <p>Catherine</p>
+                  </div>
+                  <p>Away</p>
+                </div>
+                <div class="badge badge-success badge-pill my-auto mx-2">4</div>
+                <small class="text-muted my-auto">23 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face3.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Daniel Russell</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">14 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face4.jpg" alt="image"><span class="offline"></span></div>
+                <div class="info">
+                  <p>James Richardson</p>
+                  <p>Away</p>
+                </div>
+                <small class="text-muted my-auto">2 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face5.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Madeline Kennedy</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">5 min</small>
+              </li>
+              <li class="list">
+                <div class="profile"><img src="images/faces/face6.jpg" alt="image"><span class="online"></span></div>
+                <div class="info">
+                  <p>Sarah Graves</p>
+                  <p>Available</p>
+                </div>
+                <small class="text-muted my-auto">47 min</small>
+              </li>
+            </ul>
+          </div>
+          <!-- chat tab ends -->
+        </div>
+      </div>
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="home-tab">
+                <div class="d-sm-flex align-items-center justify-content-between border-bottom">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                      
+                    </li>
+
+                  </ul>
+                  <div>
+                    <div class="btn-wrapper">
+                      
+                      <a href="/logout" class="btn btn-otline-dark"><i class="icon-printer"></i>Logout</a>
+                      <a href="/deleteacount" class="btn btn-otline-dark"><i class="icon-printer"></i>Delete Account</a>
+                      <a href="/home" class="btn btn-primary text-white me-0"><i class="icon-download"></i>Scan Malware</a>
+                      <a href="/updatereport" class="btn btn-primary text-white me-0"><i class="icon-download"></i>Update Report</a>
+                      <a href="/updatesignature" class="btn btn-primary text-white me-0"><i class="icon-download"></i>Upload New Signature</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-content tab-content-basic">
+                  <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview"> 
+                    <div class="row">
+                      <div class="col-lg-8 d-flex flex-column">
+                        
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="d-sm-flex justify-content-between align-items-start">
+                                  <div>
+                                    <h4 class="card-title card-title-dash">Recently Reported Malwares</h4>
+                                  </div>
+                                </div>
+                                <div class="table-responsive  mt-1">
+                                  <table class="table select-table">
+                                    <thead>
+                                        <tr><th>Malware Name</th>
+                                        <th>Target System</th>
+                                        <th>Reported By</th>
+                                        <th>Report Date</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      {% for report in reports_data %}
+                                      <tr>
+                                        <td>
+                                          <h6> {{ report[0] }}</h6>
+                                        </td>
+                                        <td>
+                                          <h6>{{ report[1] }}</h6>
+                                        </td>
+                                        <td>
+                                          <h6>{{ report[2] }}</h6>
+                                        </td>
+                                        <td>
+                                          <h6>{{ report[3].strftime('%Y-%m-%d') }}</h6>
+                                        </td>
+                                      </tr>
+                                      {% endfor %}
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row flex-grow">
+                          <div class="col-md-6 col-lg-6 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body card-rounded">
+                                <h4 class="card-title  card-title-dash">Recent Cyberattacks</h4>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      A ransomware attack on the municipal IT service provider Südwestfalen-IT
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Oct 30, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      The personal data of 815 million Indian residents was stolen from the Indian Council of Medical Research's (ICMR)
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Oct 9, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      23andMe, a consumer genetics and research company, disclosed that the personal data of 20 million of its customers had been stolen
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Oct 2, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      A major cyberattack on the IT systems of the German government
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Sep 29, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      Lapsus$, a notorious hacking group, claimed to have stolen the source code for Microsoft's Bing search engine.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Sep 26, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      The personal data of millions of Optus customers was stolen, including names, addresses, dates of birth, and driver's license numbers.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Sep 26, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      The personal data of millions of Uber users was stolen, including names, email addresses, and phone numbers.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Sep 15, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="list align-items-center border-bottom py-2">
+                                  <div class="wrapper w-100">
+                                    <p class="mb-2 font-weight-medium">
+                                      A data breach at cryptocurrency exchange Crypto.com exposed the personal information of over 700,000 users. 
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <div class="d-flex align-items-center">
+                                        <i class="mdi mdi-calendar text-muted me-1"></i>
+                                        <p class="mb-0 text-small text-muted">Sep 10, 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+
+
+
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-6 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="row">
+
+                                </div>
+                                
+                                <h4 class="card-title card-title-dash" style="margin-bottom: 30px;">Phishing Campaign Targets</h4>
+                                <div style="width: 450px; height: 400px;">
+                                  <!-- Canvas for the Donut Chart -->
+                                  <canvas id="myDonutChart"></canvas>
+                                </div>
+
+                                  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!----Graph here-->
+                      <div class="col-lg-4 d-flex flex-column">
+                        
+
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                      <h4 class="card-title card-title-dash">Indicators of Compromise (IOCs)</h4>
+                                    </div>
+                                    <div class="list-wrapper">
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <h5 class="ms-0 mb-1 fw-bold" >Malware:</h5>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper w-100">
+                                        <h6 class="ms-0 mb-1 fw-bold"></h6>
+                                        <h6 class="ms-0 mb-1 fw-bold">Qakbot</h6>
+                                        <div class="wrapper ms-3"></div>
+                                        <p class="mb-2 font-weight-medium">
+                                          A banking trojan that has been used to steal millions of dollars from businesses and individuals.
+                                          <br> - File hash: 2d674f7e673c8f7063e2571bb33c9874301762e8</br>
+                                        </p>
+                                        <h6 class="ms-0 mb-1 fw-bold">Emotet</h6>
+                                        <p class="mb-2 font-weight-medium">
+                                          A trojan that can steal credentials, install other malware, and send spam email.
+                                          <br> - File hash: 22c18a9050a96b2457759d72f6c07147365b3137</br>
+                                        </p>
+                                        <h6 class="ms-0 mb-1 fw-bold">XLL</h6>
+                                        <p class="mb-2 font-weight-medium">
+                                          A macro malware that can be used to steal sensitive information.
+                                          <br> - File hash: 326164384e43235b20933800a47e144b794e403e</br>
+                                        </p>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <h5 class="ms-0 mb-1 fw-bold" >Vulnerabilities:</h5>
+                                          </div>
+                                        </div>
+                                      </div>        
+                                      <div class="wrapper w-100">
+                                        <h6 class="ms-0 mb-1 fw-bold"></h6>
+                                        <h6 class="ms-0 mb-1 fw-bold">CVE-2022-22965</h6>
+                                        <p class="mb-2 font-weight-medium">
+                                          a critical vulnerability in the Spring Framework that can be used to execute arbitrary code on affected systems.
+                                        </p>
+                                        <h6 class="ms-0 mb-1 fw-bold">CVE-2022-30190</h6>
+                                        <p class="mb-2 font-weight-medium">
+                                          a critical vulnerability in the Windows Support Diagnostic Tool exploited by malicious actors to install malware and steal sensitive information.
+                                        </p>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <h5 class="ms-0 mb-1 fw-bold" >Phishing:</h5>
+                                          </div>
+                                        </div>
+                                      </div>        
+                                      <div class="wrapper w-100">
+                                        <h6 class="ms-0 mb-1 fw-bold"></h6>
+                                        <h6 class="ms-0 mb-1 fw-bold">Amazon Web Services (AWS) phishing</h6>
+                                        <p class="mb-2 font-weight-medium">
+                                          These attacks often use emails that appear to be from AWS, but they are actually from malicious actors.
+                                        </p>
+                                        
+                                      </div>
+
+
+
+                                    </div>
+                                    
+
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        
+                        <div class="row flex-grow">
+                          <div class="col-12 grid-margin stretch-card">
+                            <div class="card card-rounded">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                      <div>
+                                        <h4 class="card-title card-title-dash">Top Countries in Threat Intelligence</h4>
+                                      </div>
+                                    </div>
+                                    <div class="mt-3">
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">USA</p>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">Israel</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">Russia</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">Canada</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">United Kingdom</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">Malaysia</p>
+                                          </div>
+                                        </div>
+                                      </div> 
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">China</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">France</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">Sweden</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
+                                        <div class="d-flex">
+                                          <div class="wrapper ms-3">
+                                            <p class="ms-1 mb-1 fw-bold">Estonia</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/chart.js/chart.min.js"></script>
+  <script src="vendors/progressbar.js/progressbar.min.js"></script>
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="js/dashboard.js"></script>
+  <!-- <script src="../../js/Chart.roundedBarCharts.js"></script> -->
+  <!-- End custom js for this page-->
+
+
+
+
+</body></html>
