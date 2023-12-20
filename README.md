@@ -37,6 +37,8 @@ https://github.com/0xZainRaza/Secure-File-Scan/assets/154006182/25f20a38-3d60-49
 
 
 
+
+
 ## Proposed Solution
 
 In the realm of cybersecurity, the proliferation of malware poses a constant threat to individuals and organizations alike. **Secure File Scan** steps in to alleviate this concern by offering a comprehensive and centralized solution for malware detection and research. The multifaceted approach taken by **Secure File Scan** addresses several critical aspects of cybersecurity:
