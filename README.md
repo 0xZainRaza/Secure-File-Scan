@@ -114,10 +114,10 @@ GET /api/malwarebazaar/recent
 [FULL Documentation malwarebazaar API](https://bazaar.abuse.ch/api/)
 
 ## Authors
-- [@Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
-- [@Sarim Muhammad khan](https://www.linkedin.com/in/sarim-mohammed-khan-65bb921a3/)
-- [@Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
-- [@Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
+- [Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
+- [arim Muhammad khan](https://www.linkedin.com/in/sarim-mohammed-khan-65bb921a3/)
+- [Mehdi Badami](https://www.linkedin.com/in/mehdi-badami-bb1509258/)
+- [Moiz Ullah Siddiqui](https://www.linkedin.com/in/moiz-sid/)
 
 
 ## References
