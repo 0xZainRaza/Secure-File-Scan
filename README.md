@@ -19,7 +19,11 @@ Secure File Scan is a threat intelligence-based website that provides malware de
 
 
 
-https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/565b3315-4137-4b0c-98b2-6a2aad2962d6
+
+
+
+https://github.com/0xZainRaza/Secure-File-Scan/assets/154006182/3111dd94-21fd-48f7-b2de-b131ad919b6c
+
 
 
 
