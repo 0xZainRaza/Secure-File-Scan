@@ -1,5 +1,5 @@
 
-![logo2a](https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/933e5245-3ed6-4373-b00a-de36d01d912a)
+![secure_file_scan](https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/62dd25d7-e959-40d6-825d-6af7e68f40ea)
 ![logo](https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/df25efe4-a15a-45dd-a99d-082f0b574141)
 
 
