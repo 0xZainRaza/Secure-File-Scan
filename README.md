@@ -63,7 +63,7 @@ To use the Secure File Scan project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/secure-file-scan.git
+   git clone https://github.com/0xZainRaza/secure-file-scan.git
    cd secure-file-scan
    python app.py
 
