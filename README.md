@@ -1,3 +1,7 @@
+[![GitHub license](https://img.shields.io/github/license/creecros/simple_logo_gen.svg)](https://github.com/0xZainRaza/Secure-File-Scan/blob/main/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/0xZainRaza/Secure-File-Scan/graphs/contributors)
+
+
 
 ![secure_file_scan (3)](https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/8604fa41-14a0-4004-8f08-e0d18ee4af79)
 ![logo (3)](https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/dfbbd887-9b58-4b47-994a-887b90c82c25)
@@ -11,8 +15,6 @@
 Secure File Scan is a threat intelligence-based website that provides malware detection and analysis services. It includes a dedicated database for malware detection, API integration, and a reporting portal for malware researchers.
 
 
-[![GitHub license](https://img.shields.io/github/license/creecros/simple_logo_gen.svg)](https://github.com/0xZainRaza/Secure-File-Scan/blob/main/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/0xZainRaza/Secure-File-Scan/graphs/contributors)
 
 
 ## Demo
