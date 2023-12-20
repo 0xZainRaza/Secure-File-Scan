@@ -1,4 +1,8 @@
 
+![logo](https://github.com/0xZainRaza/Secure-File-Scan/assets/98187755/7ca343dc-8026-484a-b36f-7f047bcdedec)
+
+
+
 # Secure File Scan
 
 Secure File Scan is a threat intelligence-based website that provides malware detection and analysis services. It includes a dedicated database for malware detection, API integration, and a reporting portal for malware researchers.
@@ -8,6 +12,21 @@ Secure File Scan is a threat intelligence-based website that provides malware de
 
 Insert gif or link to demo
 
+
+
+## Proposed Solution
+
+In the realm of cybersecurity, the proliferation of malware poses a constant threat to individuals and organizations alike. **Secure File Scan** steps in to alleviate this concern by offering a comprehensive and centralized solution for malware detection and research. The multifaceted approach taken by **Secure File Scan** addresses several critical aspects of cybersecurity:
+
+1. **Efficient Detection:** The platform employs a sophisticated threat intelligence database, enabling swift and accurate detection of malware within uploaded files. This not only minimizes the risk of potential infections but also saves valuable time for users.
+
+2. **Holistic Information Retrieval:** **Secure File Scan** goes beyond mere detection by providing users with detailed information and YARA rules for identified malware. This empowers cybersecurity professionals and researchers with the insights needed to understand the nature of threats and devise effective mitigation strategies.
+
+3. **Seamless API Integration:** Through its integrated Flask-based API and external malware analyzing APIs, **Secure File Scan** enhances research capabilities. This integration ensures that users have access to a diverse set of tools and resources, fostering a more collaborative and informed cybersecurity community.
+
+4. **Community-Driven Reporting Portal:** The inclusion of a reporting portal encourages active participation from malware researchers. By allowing them to report new malware to the database, **Secure File Scan** leverages collective intelligence to stay ahead of emerging threats, contributing to a more secure online environment.
+
+By consolidating these features into a single platform, **Secure File Scan** eliminates the need for users to navigate disparate sources for malware analysis. This unified approach not only enhances the overall efficiency of cybersecurity efforts but also promotes a shared responsibility in combating the evolving landscape of cyber threats.
 
 ## Requirements
 
@@ -56,56 +75,41 @@ To use the Secure File Scan project, follow these steps:
 - **Data Encryption:** Utilizes Blowfish encryption algorithm for secure data storage. Bcrypt is employed with a 128-bit salt and encrypts a 192-bit magic value, taking advantage of the expensive key setup in eksblowfish.
 
 
-## API Reference
+# API Reference
 
-#### Get all items
+## VirusTotal API
+
+#### Scan File for Malware
+
+Submit a file for scanning and get the analysis report.
 
 ```http
-  GET /api/items
+POST /api/virustotal/scan
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `File` | `file` | **Required**.  File to scan |
 
-#### Get item
+[FULL Documentation VirusTotal API](https://docs.virustotal.com/reference/post_files)
 
-```http
-  GET /api/items/${id}
+
+## Malware Bazaar API
+
+*Get Recent Malware Samples*
+
+Retrieve information on recent malware samples.
+
 ```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
+GET /api/malwarebazaar/recent
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `limit` | `integer` |   Number of recent samples to retrieve. |
+| `format` | `string` |   Output format (json or text). |
 
 
-
-## Proposed Solution
-
-In the realm of cybersecurity, the proliferation of malware poses a constant threat to individuals and organizations alike. **Secure File Scan** steps in to alleviate this concern by offering a comprehensive and centralized solution for malware detection and research. The multifaceted approach taken by **Secure File Scan** addresses several critical aspects of cybersecurity:
-
-1. **Efficient Detection:** The platform employs a sophisticated threat intelligence database, enabling swift and accurate detection of malware within uploaded files. This not only minimizes the risk of potential infections but also saves valuable time for users.
-
-2. **Holistic Information Retrieval:** **Secure File Scan** goes beyond mere detection by providing users with detailed information and YARA rules for identified malware. This empowers cybersecurity professionals and researchers with the insights needed to understand the nature of threats and devise effective mitigation strategies.
-
-3. **Seamless API Integration:** Through its integrated Flask-based API and external malware analyzing APIs, **Secure File Scan** enhances research capabilities. This integration ensures that users have access to a diverse set of tools and resources, fostering a more collaborative and informed cybersecurity community.
-
-4. **Community-Driven Reporting Portal:** The inclusion of a reporting portal encourages active participation from malware researchers. By allowing them to report new malware to the database, **Secure File Scan** leverages collective intelligence to stay ahead of emerging threats, contributing to a more secure online environment.
-
-By consolidating these features into a single platform, **Secure File Scan** eliminates the need for users to navigate disparate sources for malware analysis. This unified approach not only enhances the overall efficiency of cybersecurity efforts but also promotes a shared responsibility in combating the evolving landscape of cyber threats.
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
+[FULL Documentation malwarebazaar API](https://bazaar.abuse.ch/api/)
 
 ## Authors
 - [@Zain Ali Raza](https://www.linkedin.com/in/zain-ali-raza-7372b1219/)
