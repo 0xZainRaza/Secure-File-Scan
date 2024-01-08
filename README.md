@@ -94,12 +94,12 @@ To use the Secure File Scan project, follow these steps:
 
 - **Malware Detection:** Scan uploaded files for malware using a comprehensive threat intelligence database.
 - **Detailed Information:** Retrieve detailed information and YARA rules for identified malware.
-- **API Integration:** Integrated Flask-based API and external malware analyzing APIs for enhanced research capabilities.
+- **Multiple API Integration:** Integrated Flask-based API and external malware analyzing APIs for enhanced research capabilities.
 - **Malware Reporting Portal:** Allows malware researchers to report new malware to the database.
 - **Real-time Dashboard:** Displays real-time information on recent cyber attacks, reported malware, IOCs, top countries in threat intelligence, and a pie chart showing the distribution of companies affected by phishing attacks.
 - **Data Encryption:** Utilizes Blowfish encryption algorithm for secure data storage. Bcrypt is employed with a 128-bit salt and encrypts a 192-bit magic value, taking advantage of the expensive key setup in eksblowfish.
-
-
+- **Comprehensive Logs** Python logging to provide comprehensive insights into user interactions, potential threats, and system performance. Logs aid in security analysis and system optimization.
+- **End-to-End Security** Ensuring end-to-end security is paramount. SSL certificates encrypt data in transit, maintaining confidentiality and integrity, and fortifying the platform against potential threats and unauthorized access.
 # API Reference
 
 ## VirusTotal API
