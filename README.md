@@ -47,7 +47,7 @@ In the realm of cybersecurity, the proliferation of malware poses a constant thr
 
 2. **Holistic Information Retrieval:** **Secure File Scan** goes beyond mere detection by providing users with detailed information and YARA rules for identified malware. This empowers cybersecurity professionals and researchers with the insights needed to understand the nature of threats and devise effective mitigation strategies.
 
-3. **Seamless API Integration:** Through its integrated Flask-based API and external malware analyzing APIs, **Secure File Scan** enhances research capabilities. This integration ensures that users have access to a diverse set of tools and resources, fostering a more collaborative and informed cybersecurity community.
+3. **Seamless Multiple API Integration:** Through its integrated Flask-based API and external malware analyzing APIs, **Secure File Scan** enhances research capabilities. This integration ensures that users have access to a diverse set of tools and resources, fostering a more collaborative and informed cybersecurity community.
 
 4. **Community-Driven Reporting Portal:** The inclusion of a reporting portal encourages active participation from malware researchers. By allowing them to report new malware to the database, **Secure File Scan** leverages collective intelligence to stay ahead of emerging threats, contributing to a more secure online environment.
 
