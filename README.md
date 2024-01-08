@@ -144,15 +144,15 @@ GET /api/malwarebazaar/recent
 
 
 ## References
-- VirusTotal API Documentation and references,
+1. VirusTotal API Documentation and references,
    https://docs.virustotal.com/reference/public-vs-premium-api
-- Malware Bazaar API Documentation and references, https://bazaar.abuse.ch/api/ 
+2. Malware Bazaar API Documentation and references, https://bazaar.abuse.ch/api/ 
 
-- Python Logging Documentation,
+3. Python Logging Documentation,
    https://docs.python.org/3/library/logging.html
 
-- SSL/TLS Overview,
+4. SSL/TLS Overview,
    www.example.com/ssl-tls-overview
 
-- Florian Roth, the creator of Yara Rules,
+5. Florian Roth, the creator of Yara Rules,
  https://github.com/Neo23x0
