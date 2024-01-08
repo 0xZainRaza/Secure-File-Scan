@@ -57,6 +57,7 @@ By consolidating these features into a single platform, **Secure File Scan** eli
 
 - **Malware Detection:** Scan uploaded files for malware using a comprehensive threat intelligence database.
 - **Detailed Information:** Retrieve detailed information and YARA rules for identified malware.
+- **YARA Rules Database:** Integrated YARA rule database that generates and adds new signatures using the YARA rule engine developed by Florian Roth
 - **Multiple API Integration:** Integrated Flask-based API and external malware analyzing APIs for enhanced research capabilities.
 - **Malware Reporting Portal:** Allows malware researchers to report new malware to the database.
 - **Real-time Dashboard:** Displays real-time information on recent cyber attacks, reported malware, IOCs, top countries in threat intelligence, and a pie chart showing the distribution of companies affected by phishing attacks.
