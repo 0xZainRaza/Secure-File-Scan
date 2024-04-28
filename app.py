@@ -147,7 +147,7 @@ class VerificationForm(FlaskForm):
 
 #functions
 
-def generate_verification_code(length=10):
+def generate_verification_code(length=20):
     characters = string.ascii_lowercase + string.digits
     verification_code = ''.join(random.choice(characters) for i in range(length))
     return verification_code
