@@ -7,6 +7,8 @@ from wtforms.validators import InputRequired, Length, ValidationError, Email, Eq
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 from werkzeug.utils import secure_filename
+from flask_mail import Mail, Message
+from flask import session
 from sqlalchemy import desc
 import os
 from datetime import datetime
@@ -14,6 +16,9 @@ import hashlib
 import requests
 import subprocess
 import logging 
+import random
+import string
+
 
 logging.basicConfig(filename='log.log', level=logging.DEBUG, format='%(asctime)s [%(levelname)s] - %(message)s')
 
@@ -26,6 +31,14 @@ app.config['SECRET_KEY'] = 'thisisasecretkey'
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI', 'sqlite:///base.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Disable Flask-SQLAlchemy modification tracking
 app.config['UPLOAD_FOLDER'] = 'static/files'
+
+app.config['MAIL_SERVER'] = 'smtp.office365.com'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USERNAME'] = 'smartpakingsystem@outlook.com'
+app.config['MAIL_PASSWORD'] = 'parkingsystemsecurepassword1234'
+
+mail = Mail(app)
 
 db = SQLAlchemy(app)
 
@@ -125,7 +138,24 @@ class LoginForm(FlaskForm):
 
     submit = SubmitField('Login')
 
+class VerificationForm(FlaskForm):
+    Verificationcode = StringField('Code', validators=[InputRequired()])
+    
+    submit = SubmitField('Enter')
+
+
+
 #functions
+
+def generate_verification_code(length=10):
+    characters = string.ascii_lowercase + string.digits
+    verification_code = ''.join(random.choice(characters) for i in range(length))
+    return verification_code
+
+def send_verification_email(email, verification_code):
+    msg = Message('Verification Code', sender='smartpakingsystem@outlook.com', recipients=[email])
+    msg.body = f'Your verification code is: {verification_code}'
+    mail.send(msg)
 
 
 def get_virus_total_info(md5_hash):
@@ -183,9 +213,6 @@ def load_user(user_id):
 # def results(filename):
 #     return render_template('results.html', filename=filename)
 def results(filename):
-    #os.system(r'python yarGen\yarGen.py -m "D:\xamp\htdocs\DB project\static\files" --excludegood -o query.yar')
-
-    #os.system(f'del static\files\{filename}')
     # Calculate MD5 hash of the uploaded file
     file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     md5_hash = md5_hash = calculate_md5_hash(file_path)
@@ -342,6 +369,26 @@ def updatereport():
 
 
 
+@app.route('/verification', methods=['GET', 'POST'])
+def verification():
+    form = VerificationForm()
+
+    if form.validate_on_submit():
+        # Get stored verification code from session
+        stored_verification_code = session.get('verification_code')
+        # Get entered verification code from form
+        entered_verification_code = form.Verificationcode.data
+        # Compare entered code with stored code
+        if stored_verification_code == entered_verification_code:
+            # Verification successful, proceed with desired action
+            # For example, log the user in
+            return redirect(url_for('dashboard'))
+        else:
+            flash('Invalid verification code. Please try again.', 'danger')
+
+    return render_template('verification.html', form=form)
+
+    
 
     
 
@@ -451,16 +498,20 @@ def login():
 
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
-        if user:
-            if bcrypt.check_password_hash(user.password, form.password.data):
-                login_user(user)
-                return redirect(url_for('dashboard'))
-            else:
-                flash('Invalid password. Please try again.', 'danger')
+        if user and bcrypt.check_password_hash(user.password, form.password.data):
+            # Generate random verification code
+            verification_code = generate_verification_code()
+            # Store verification code in session
+            session['verification_code'] = verification_code
+            # Send verification email
+            send_verification_email(user.email, verification_code)
+            # Redirect to verification page
+            return redirect(url_for('verification'))
         else:
-            flash('Invalid user name. Please try again.', 'danger')
+            flash('Invalid Username or Password. Please try again.', 'danger')
 
     return render_template('login.html', form=form)
+
 
 @app.route('/dashboard', methods=['GET'])
 @login_required
@@ -497,4 +548,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=True,ssl_context=('cert.pem', 'key.pem'))
+    app.run(debug=True,ssl_context=('cert.pem', 'key.pem'),port=5555)

@@ -1,0 +1,590 @@
+2024-04-24 01:09:23,987 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2024-04-24 01:09:23,987 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-24 01:09:23,987 [INFO] -  * Restarting with stat
+2024-04-24 01:09:24,893 [WARNING] -  * Debugger is active!
+2024-04-24 01:09:24,893 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:09:48,794 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2024-04-24 01:09:48,794 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-24 01:09:48,794 [INFO] -  * Restarting with stat
+2024-04-24 01:09:49,669 [WARNING] -  * Debugger is active!
+2024-04-24 01:09:49,685 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:13:21,844 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-24 01:13:21,955 [INFO] -  * Restarting with stat
+2024-04-24 01:13:23,077 [WARNING] -  * Debugger is active!
+2024-04-24 01:13:23,077 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:13:27,133 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-24 01:13:27,133 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-24 01:13:27,133 [INFO] -  * Restarting with stat
+2024-04-24 01:13:27,993 [WARNING] -  * Debugger is active!
+2024-04-24 01:13:28,008 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:13:43,988 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:13:43] "GET / HTTP/1.1" 200 -
+2024-04-24 01:13:44,343 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:13:44] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-24 01:13:44,705 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:13:44] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-24 01:13:45,034 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:13:45] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-24 01:13:45,294 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:13:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-24 01:13:59,388 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:13:59] "GET /signup HTTP/1.1" 200 -
+2024-04-24 01:13:59,415 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:13:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:14:00,051 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:00] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:14:00,113 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:00] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-24 01:14:03,757 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:03] "GET /login HTTP/1.1" 200 -
+2024-04-24 01:14:04,381 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:14:04,400 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:04] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:14:12,292 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:12] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:14:12,511 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:14:12,967 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:12] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:14:20,717 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:20] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:14:21,368 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:14:21,382 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:21] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:14:29,724 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-24 01:14:29,775 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:29] "GET /dashboard HTTP/1.1" 200 -
+2024-04-24 01:14:30,808 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:30] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:30,808 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:30] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:30,831 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:30] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:30,847 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:30] "GET /static/style2.css HTTP/1.1" 200 -
+2024-04-24 01:14:31,115 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,127 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,133 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,138 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,141 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,499 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:14:31,741 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,874 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,886 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,896 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:14:31,904 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:31] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:14:32,126 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:32] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:32,374 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:32] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:32,508 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:32] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:32,522 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:32] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:32,531 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:32] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:32,536 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:32] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:32,761 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:32] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:33,030 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:33] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:33,137 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:33] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-04-24 01:14:33,177 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:33] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:14:33,181 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:33] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:14:33,191 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:33] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:14:33,391 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:33] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:14:34,040 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:34] "[33mGET /images/favicon.png HTTP/1.1[0m" 404 -
+2024-04-24 01:14:42,740 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:42] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:43,719 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:43] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:43,739 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:43] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:43,751 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:43] "GET /static/style2.css HTTP/1.1" 200 -
+2024-04-24 01:14:43,754 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:43] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:43,760 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:43] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:44,010 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:44] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:44,044 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:44] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:44,048 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:44] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-04-24 01:14:44,716 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:14:44] "[33mGET /maps/vertical-layout-light/style.css.map HTTP/1.1[0m" 404 -
+2024-04-24 01:15:21,766 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:15:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-24 01:15:22,376 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:15:22] "GET /login HTTP/1.1" 200 -
+2024-04-24 01:15:22,630 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:15:22] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-24 01:15:23,068 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:15:23] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-24 01:15:23,081 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:15:23] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-24 01:19:51,280 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-24 01:19:51,407 [INFO] -  * Restarting with stat
+2024-04-24 01:24:04,422 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-24 01:24:04,422 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-24 01:24:04,422 [INFO] -  * Restarting with stat
+2024-04-24 01:24:05,281 [WARNING] -  * Debugger is active!
+2024-04-24 01:24:05,281 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:24:09,947 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:09] "GET /login HTTP/1.1" 200 -
+2024-04-24 01:24:10,334 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:10] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-24 01:24:10,598 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:10] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:24:10,609 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:10] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-24 01:24:21,132 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:21] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:24:21,146 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:24:21,780 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:21] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:24:31,464 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-24 01:24:32,095 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:32] "GET /verification HTTP/1.1" 200 -
+2024-04-24 01:24:39,480 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:39] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:24:40,175 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:24:40,191 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:40] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:24:47,497 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:47] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:24:48,122 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:24:48,134 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:24:48] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:25:18,583 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-24 01:25:18,693 [INFO] -  * Restarting with stat
+2024-04-24 01:25:19,677 [WARNING] -  * Debugger is active!
+2024-04-24 01:25:19,677 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:25:24,716 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:24] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:25:25,040 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:25:25,384 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:25] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:25:33,736 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-24 01:25:34,367 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:34] "GET /verification HTTP/1.1" 200 -
+2024-04-24 01:25:39,571 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:39] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:25:40,200 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:40] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-24 01:25:40,232 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:40] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-24 01:25:40,831 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:40] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-24 01:25:45,677 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:45] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:25:46,292 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:25:46,330 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:46] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:25:53,908 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:53] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:25:53,941 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:25:54,564 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:25:54] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:26:22,957 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-24 01:26:23,079 [INFO] -  * Restarting with stat
+2024-04-24 01:26:24,025 [WARNING] -  * Debugger is active!
+2024-04-24 01:26:24,025 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:26:27,285 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-24 01:26:27,407 [INFO] -  * Restarting with stat
+2024-04-24 01:26:28,288 [WARNING] -  * Debugger is active!
+2024-04-24 01:26:28,303 [INFO] -  * Debugger PIN: 215-984-278
+2024-04-24 01:26:33,705 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:33] "POST /login HTTP/1.1" 200 -
+2024-04-24 01:26:33,806 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:26:34,357 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:34] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:26:40,691 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-24 01:26:41,367 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:41] "[32mGET /verification HTTP/1.1[0m" 302 -
+2024-04-24 01:26:41,642 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:41] "GET /dashboard HTTP/1.1" 200 -
+2024-04-24 01:26:42,652 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:42,656 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:42,656 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:42,674 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "GET /static/style2.css HTTP/1.1" 200 -
+2024-04-24 01:26:42,941 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:42,941 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:42,960 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:42,975 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:42,979 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:42] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-04-24 01:26:43,268 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:26:43,323 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:43,585 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:26:43,620 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:43,629 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:26:43,637 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:26:43,908 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:43,962 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:43] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,241 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,241 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,257 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,275 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,541 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,588 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,874 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,887 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,891 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:26:44,914 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:44] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:26:45,173 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:26:45] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-04-24 01:27:01,193 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:27:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-24 01:27:01,340 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:27:01] "GET /login HTTP/1.1" 200 -
+2024-04-24 01:27:01,833 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:27:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-24 01:27:01,995 [INFO] - 127.0.0.1 - - [24/Apr/2024 01:27:01] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-24 01:31:05,461 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-24 01:31:05,592 [INFO] -  * Restarting with stat
+2024-04-29 00:20:14,283 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-29 00:20:14,284 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-29 00:20:14,292 [INFO] -  * Restarting with stat
+2024-04-29 00:20:15,186 [WARNING] -  * Debugger is active!
+2024-04-29 00:20:15,191 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:21:27,433 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-29 00:21:27,433 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-29 00:21:27,435 [INFO] -  * Restarting with stat
+2024-04-29 00:21:28,406 [WARNING] -  * Debugger is active!
+2024-04-29 00:21:28,410 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:28:42,557 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-29 00:28:42,557 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-29 00:28:42,559 [INFO] -  * Restarting with stat
+2024-04-29 00:28:43,546 [WARNING] -  * Debugger is active!
+2024-04-29 00:28:43,550 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:28:50,667 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:50] "GET / HTTP/1.1" 200 -
+2024-04-29 00:28:50,939 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:50] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:28:50,958 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:50] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-29 00:28:50,966 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:50] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-29 00:28:51,035 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-29 00:28:58,482 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:58] "GET /signup HTTP/1.1" 200 -
+2024-04-29 00:28:58,534 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:28:58,541 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:58] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:28:58,748 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:28:58] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:29:00,376 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:00] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:29:00,425 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:29:00,439 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:00] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:29:04,781 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:04] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:29:04,818 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:29:04,828 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:04] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:29:13,887 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:13] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:29:13,936 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:29:13,947 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:13] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:29:16,962 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:16] "GET / HTTP/1.1" 200 -
+2024-04-29 00:29:17,001 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:29:17,012 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:17] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:29:17,016 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:17] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:29:18,461 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:18] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:29:18,506 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:29:18,516 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:18] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:29:18,528 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:18] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:29:52,096 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:52] "GET /signup HTTP/1.1" 200 -
+2024-04-29 00:29:52,144 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:52] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:29:52,162 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:52] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-29 00:29:52,171 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:52] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-29 00:29:54,706 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:54] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:29:54,751 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:29:54,763 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:54] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:29:56,888 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:56] "GET / HTTP/1.1" 200 -
+2024-04-29 00:29:56,928 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:29:56,936 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:56] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:29:56,943 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:29:56] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:30:02,249 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:02] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-04-29 00:30:02,374 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-04-29 00:30:04,287 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/b9dba16de491cc243adfff5e0c7ad878 HTTP/1.1" 404 None
+2024-04-29 00:30:04,298 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[32mGET /results/dancewithme.zip HTTP/1.1[0m" 302 -
+2024-04-29 00:30:04,347 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "GET /noresults HTTP/1.1" 200 -
+2024-04-29 00:30:04,468 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,478 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,486 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,495 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,503 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /style2.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,516 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,520 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,527 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,529 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,531 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "GET /static/style2.css HTTP/1.1" 200 -
+2024-04-29 00:30:04,534 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,566 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:30:04,578 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,588 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,598 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,613 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,623 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,626 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,637 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,646 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,650 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,660 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,669 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,672 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,750 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:04,861 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:04] "[33mGET /images/favicon.png HTTP/1.1[0m" 404 -
+2024-04-29 00:30:10,179 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:10] "GET / HTTP/1.1" 200 -
+2024-04-29 00:30:37,108 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:37] "GET /signup HTTP/1.1" 200 -
+2024-04-29 00:30:37,150 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:37] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:30:37,176 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:37] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-29 00:30:37,179 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:37] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-29 00:30:38,642 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:38] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:30:38,675 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:30:38,683 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:38] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:30:46,553 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:30:46,565 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[32mGET /verification HTTP/1.1[0m" 302 -
+2024-04-29 00:30:46,629 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "GET /dashboard HTTP/1.1" 200 -
+2024-04-29 00:30:46,773 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,780 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,791 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,800 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "GET /static/style2.css HTTP/1.1" 200 -
+2024-04-29 00:30:46,813 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,826 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,832 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,835 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,837 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,849 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:30:46,852 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,876 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,885 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,896 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,901 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,912 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,928 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,943 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,952 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,961 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,978 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,987 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:46,993 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:46] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:47,000 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:47] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:47,012 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:47] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-04-29 00:30:47,027 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:47] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:47,036 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:47] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:47,049 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:47] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:30:58,717 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-29 00:30:58,730 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:58] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:30:58,784 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:30:58,796 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:30:58] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:33:10,703 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:33:10,826 [INFO] -  * Restarting with stat
+2024-04-29 00:33:12,513 [WARNING] -  * Debugger is active!
+2024-04-29 00:33:12,523 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:33:20,153 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:33:20,268 [INFO] -  * Restarting with stat
+2024-04-29 00:33:21,270 [WARNING] -  * Debugger is active!
+2024-04-29 00:33:21,277 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:38:57,793 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:38:57,803 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:57] "[32mGET /verification HTTP/1.1[0m" 302 -
+2024-04-29 00:38:57,845 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:57] "GET /dashboard HTTP/1.1" 200 -
+2024-04-29 00:38:57,984 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:57] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:57,993 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:57] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,003 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,023 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,037 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,042 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,046 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,051 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,061 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,086 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,105 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,116 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,137 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,146 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,167 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,177 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,189 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "GET /static/style2.css HTTP/1.1" 200 -
+2024-04-29 00:38:58,195 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,211 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,235 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,248 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-29 00:38:58,283 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,292 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,335 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,337 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,350 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,361 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:38:58,370 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:38:58] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-04-29 00:39:00,404 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:39:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-04-29 00:39:00,424 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:39:00] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:39:00,465 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:39:00] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:39:00,486 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:39:00] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:39:00,487 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:39:00] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-29 00:39:47,402 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:39:47,615 [INFO] -  * Restarting with stat
+2024-04-29 00:39:48,803 [WARNING] -  * Debugger is active!
+2024-04-29 00:39:48,807 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:40:02,187 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:40:02,339 [INFO] -  * Restarting with stat
+2024-04-29 00:40:03,284 [WARNING] -  * Debugger is active!
+2024-04-29 00:40:03,288 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:40:06,191 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-29 00:40:06,192 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-29 00:40:06,193 [INFO] -  * Restarting with stat
+2024-04-29 00:40:07,092 [WARNING] -  * Debugger is active!
+2024-04-29 00:40:07,096 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:40:09,750 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:09] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:40:09,956 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:09] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:40:09,997 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:09] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:40:10,026 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:10] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:40:17,636 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:40:17,711 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:17] "[35m[1mGET /verification HTTP/1.1[0m" 500 -
+2024-04-29 00:40:17,774 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:17] "GET /verification?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-29 00:40:17,810 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:17] "GET /verification?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-29 00:40:17,860 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:17] "GET /verification?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 00:40:17,899 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:40:17] "GET /verification?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 00:41:03,753 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:03] "[35m[1mGET /verification HTTP/1.1[0m" 500 -
+2024-04-29 00:41:03,787 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:03] "GET /verification?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-29 00:41:03,794 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:03] "[36mGET /verification?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-29 00:41:03,819 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:03] "GET /verification?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 00:41:03,849 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:03] "GET /verification?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 00:41:05,159 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:05] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:41:05,200 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:05] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:41:05,222 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:05] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-29 00:41:05,223 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:05] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-29 00:41:09,849 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:41:09,898 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:09] "[35m[1mGET /verification HTTP/1.1[0m" 500 -
+2024-04-29 00:41:09,945 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:09] "[36mGET /verification?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:41:09,952 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:09] "[36mGET /verification?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-29 00:41:09,976 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:41:09] "GET /verification?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 00:43:46,349 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:43:46,540 [INFO] -  * Restarting with stat
+2024-04-29 00:43:47,610 [WARNING] -  * Debugger is active!
+2024-04-29 00:43:47,614 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:43:51,281 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:43:51] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:43:51,463 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:43:51] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:43:51,479 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:43:51] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-29 00:43:51,485 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:43:51] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-29 00:43:57,025 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:43:57] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:44:03,898 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:44:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:44:03,912 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:44:03] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:44:03,959 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:44:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:44:03,970 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:44:03] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:45:55,006 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:45:55,125 [INFO] -  * Restarting with stat
+2024-04-29 00:45:56,096 [WARNING] -  * Debugger is active!
+2024-04-29 00:45:56,100 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:49:25,491 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:49:25,623 [INFO] -  * Restarting with stat
+2024-04-29 00:49:26,593 [WARNING] -  * Debugger is active!
+2024-04-29 00:49:26,597 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:49:32,000 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:49:32,118 [INFO] -  * Restarting with stat
+2024-04-29 00:49:33,162 [WARNING] -  * Debugger is active!
+2024-04-29 00:49:33,167 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:49:43,260 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:49:43,371 [INFO] -  * Restarting with stat
+2024-04-29 00:49:44,328 [WARNING] -  * Debugger is active!
+2024-04-29 00:49:44,332 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:50:19,653 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:50:19,774 [INFO] -  * Restarting with stat
+2024-04-29 00:50:20,762 [WARNING] -  * Debugger is active!
+2024-04-29 00:50:20,766 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:50:31,301 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:50:31,444 [INFO] -  * Restarting with stat
+2024-04-29 00:50:32,455 [WARNING] -  * Debugger is active!
+2024-04-29 00:50:32,459 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:53:15,265 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 00:53:15,391 [INFO] -  * Restarting with stat
+2024-04-29 00:53:16,418 [WARNING] -  * Debugger is active!
+2024-04-29 00:53:16,423 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:53:27,372 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-29 00:53:27,372 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-29 00:53:27,374 [INFO] -  * Restarting with stat
+2024-04-29 00:53:28,266 [WARNING] -  * Debugger is active!
+2024-04-29 00:53:28,270 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 00:53:31,800 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:31] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:53:33,537 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:33] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:53:33,748 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:53:33,778 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:33] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:53:40,926 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:53:40,946 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:40] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:53:40,986 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:53:40,996 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:53:40] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:54:35,310 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:35] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:54:35,349 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:54:35,361 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:35] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:54:38,492 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:38] "GET / HTTP/1.1" 200 -
+2024-04-29 00:54:38,530 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:54:38,543 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:38] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:54:38,552 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:38] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:54:40,828 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:40] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:54:40,869 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:54:40,879 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:40] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:54:40,892 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:40] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:54:53,864 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:54:53,876 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:53] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:54:53,920 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:54:53,929 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:54:53] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:55:13,957 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:13] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:55:13,993 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:55:14,008 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:14] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:55:26,130 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:26] "GET / HTTP/1.1" 200 -
+2024-04-29 00:55:26,171 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:55:26,183 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:26] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:55:26,194 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:26] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:55:27,340 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:27] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:55:27,378 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:55:27,388 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:27] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:55:27,396 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:27] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:55:30,181 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:30] "GET /signup HTTP/1.1" 200 -
+2024-04-29 00:55:30,217 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:55:30,227 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:30] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:55:32,621 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:32] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:55:32,656 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:55:32,665 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:32] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:55:38,746 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:38] "POST /login HTTP/1.1" 200 -
+2024-04-29 00:55:38,789 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:55:38,800 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:38] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:55:47,474 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:55:47,485 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:47] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:55:47,527 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:55:47,536 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:55:47] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:56:31,175 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:31] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:56:31,210 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:56:31,220 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:31] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:56:55,332 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:55] "GET / HTTP/1.1" 200 -
+2024-04-29 00:56:55,373 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:56:55,385 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:55] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:56:55,396 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:55] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:56:56,606 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:56] "GET /login HTTP/1.1" 200 -
+2024-04-29 00:56:56,651 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 00:56:56,664 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:56] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:56:56,675 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:56:56] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 00:57:05,628 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:57:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 00:57:05,642 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:57:05] "GET /verification HTTP/1.1" 200 -
+2024-04-29 00:57:05,690 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:57:05] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 00:57:05,702 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:57:05] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 00:57:05,710 [INFO] - 127.0.0.1 - - [29/Apr/2024 00:57:05] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 01:01:08,649 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:01:08] "POST /verification HTTP/1.1" 200 -
+2024-04-29 01:01:08,696 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:01:08] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:01:08,697 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:01:08] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 01:01:08,711 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:01:08] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 01:01:12,165 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:01:12] "POST /verification HTTP/1.1" 200 -
+2024-04-29 01:01:12,202 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:01:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:01:12,215 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:01:12] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:41:15,294 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:41:15,458 [INFO] -  * Restarting with stat
+2024-04-29 01:41:24,611 [WARNING] -  * Debugger is active!
+2024-04-29 01:41:24,616 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:45:33,514 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:45:33,627 [INFO] -  * Restarting with stat
+2024-04-29 01:45:34,699 [WARNING] -  * Debugger is active!
+2024-04-29 01:45:34,703 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:46:38,202 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:46:38,383 [INFO] -  * Restarting with stat
+2024-04-29 01:46:39,481 [WARNING] -  * Debugger is active!
+2024-04-29 01:46:39,486 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:47:17,561 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:47:17,820 [INFO] -  * Restarting with stat
+2024-04-29 01:47:19,312 [WARNING] -  * Debugger is active!
+2024-04-29 01:47:19,316 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:47:43,678 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:47:43,796 [INFO] -  * Restarting with stat
+2024-04-29 01:47:44,737 [WARNING] -  * Debugger is active!
+2024-04-29 01:47:44,742 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:48:39,373 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:48:39,488 [INFO] -  * Restarting with stat
+2024-04-29 01:48:40,511 [WARNING] -  * Debugger is active!
+2024-04-29 01:48:40,515 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:49:06,500 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-29 01:49:06,500 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-29 01:49:06,502 [INFO] -  * Restarting with stat
+2024-04-29 01:49:07,675 [WARNING] -  * Debugger is active!
+2024-04-29 01:49:07,679 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:49:14,361 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:14] "POST /verification HTTP/1.1" 200 -
+2024-04-29 01:49:14,605 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:14] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:49:14,615 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:49:14,650 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:14] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 01:49:16,545 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:16] "GET / HTTP/1.1" 200 -
+2024-04-29 01:49:16,576 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:49:16,587 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:16] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:49:16,596 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:16] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 01:49:18,429 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:18] "GET /login HTTP/1.1" 200 -
+2024-04-29 01:49:18,471 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:49:18,482 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:18] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:49:18,500 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:18] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-04-29 01:49:25,898 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:25] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-04-29 01:49:25,950 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:25] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-29 01:49:25,967 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:25] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-29 01:49:26,005 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:26] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 01:49:26,043 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:26] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 01:49:29,410 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:49:29] "GET /login HTTP/1.1" 200 -
+2024-04-29 01:50:14,110 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:50:14,265 [INFO] -  * Restarting with stat
+2024-04-29 01:50:15,522 [WARNING] -  * Debugger is active!
+2024-04-29 01:50:15,527 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:50:23,493 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:50:23] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-04-29 01:50:23,676 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:50:23] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-04-29 01:50:23,685 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:50:23] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-04-29 01:50:23,706 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:50:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 01:50:23,737 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:50:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-04-29 01:51:00,345 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:51:00,466 [INFO] -  * Restarting with stat
+2024-04-29 01:51:01,487 [WARNING] -  * Debugger is active!
+2024-04-29 01:51:01,493 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:51:09,880 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-04-29 01:51:09,880 [INFO] - [33mPress CTRL+C to quit[0m
+2024-04-29 01:51:09,882 [INFO] -  * Restarting with stat
+2024-04-29 01:51:11,045 [WARNING] -  * Debugger is active!
+2024-04-29 01:51:11,050 [INFO] -  * Debugger PIN: 589-605-772
+2024-04-29 01:51:18,100 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:18] "GET /login HTTP/1.1" 200 -
+2024-04-29 01:51:18,351 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:18] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-29 01:51:18,365 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:18] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-04-29 01:51:18,373 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:18] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-04-29 01:51:29,015 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-04-29 01:51:29,039 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:29] "GET /verification HTTP/1.1" 200 -
+2024-04-29 01:51:29,080 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:51:29,098 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:29] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:51:50,307 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:50] "POST /verification HTTP/1.1" 200 -
+2024-04-29 01:51:50,343 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:51:50,358 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:50] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:51:57,537 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:57] "POST /verification HTTP/1.1" 200 -
+2024-04-29 01:51:57,575 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:51:57,586 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:51:57] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-04-29 01:52:35,164 [INFO] - 127.0.0.1 - - [29/Apr/2024 01:52:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-29 01:53:39,102 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-04-29 01:53:39,237 [INFO] -  * Restarting with stat
+2024-04-29 01:53:40,485 [WARNING] -  * Debugger is active!
+2024-04-29 01:53:40,492 [INFO] -  * Debugger PIN: 589-605-772

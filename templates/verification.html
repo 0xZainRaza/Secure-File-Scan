@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Secure File Scan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="{{ url_for('static', filename='logo2a.png') }}" class="logo">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/signup">Sign Up</a></li>
+            </ul>      
+        </div>
+        <div class="wrapper" >
+            <form method="POST" action="{{ url_for('verification') }}">
+                {{ form.csrf_token }}
+                {{ form.hidden_tag() }}
+
+                <h1>Verification code</h1>
+                <div class="input-box">
+                    <input type="text" name="Code" placeholder="Verification Code" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="flash-messages">
+                        {% for category, message in messages %}
+                            <div class="alert alert-{{ category }}">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+
+                <button type="submit" class="btn"><span></span>Enter</button>
+            </form>
+        </div>    
+    </div>
+</body>
+</html>
