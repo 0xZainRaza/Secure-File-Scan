@@ -9,6 +9,7 @@ from flask_login import LoginManager
 from werkzeug.utils import secure_filename
 from flask_mail import Mail, Message
 from flask import session
+from flask_login import logout_user
 from sqlalchemy import desc
 import os
 from datetime import datetime
@@ -31,6 +32,8 @@ app.config['SECRET_KEY'] = 'thisisasecretkey'
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI', 'sqlite:///base.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Disable Flask-SQLAlchemy modification tracking
 app.config['UPLOAD_FOLDER'] = 'static/files'
+app.config['SESSION_COOKIE_SECURE'] = True
+
 
 app.config['MAIL_SERVER'] = 'smtp.office365.com'
 app.config['MAIL_PORT'] = 587
@@ -141,7 +144,7 @@ class LoginForm(FlaskForm):
 class VerificationForm(FlaskForm):
     Verificationcode = StringField('Code', validators=[InputRequired()])
     
-    submit = SubmitField('Enter')
+    submit = SubmitField('submit')
 
 
 
@@ -380,13 +383,25 @@ def verification():
         entered_verification_code = form.Verificationcode.data
         # Compare entered code with stored code
         if stored_verification_code == entered_verification_code:
-            # Verification successful, proceed with desired action
-            # For example, log the user in
-            return redirect(url_for('dashboard'))
+            # Verification successful, log in the user
+            user_id = session.get('user_id')
+            if user_id:
+                user = User.query.get(user_id)
+                if user:
+                    login_user(user)  # Log in the user
+                    return redirect(url_for('dashboard'))  # Redirect to the dashboard
+                else:
+                    flash('User not found in the database. Please try logging in again.', 'danger')
+            else:
+                flash('User ID not found in the session. Please try logging in again.', 'danger')
         else:
             flash('Invalid verification code. Please try again.', 'danger')
+            return redirect(url_for('login'))
 
+    # Render the verification template with the form
     return render_template('verification.html', form=form)
+
+
 
     
 
@@ -503,6 +518,7 @@ def login():
             verification_code = generate_verification_code()
             # Store verification code in session
             session['verification_code'] = verification_code
+            session['user_id'] = user.id
             # Send verification email
             send_verification_email(user.email, verification_code)
             # Redirect to verification page
@@ -529,8 +545,14 @@ def dashboard():
 @app.route('/logout', methods=['GET', 'POST'])
 @login_required
 def logout():
+    # Clear the Flask session
+    session.clear()
+    # Logout the user using Flask-Login
     logout_user()
-    return redirect(url_for('login'))
+    # Redirect the user to the login page
+    response = redirect(url_for('login'))
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    return response
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/home', methods=['GET', 'POST'])
