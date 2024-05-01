@@ -38,8 +38,8 @@ app.config['SESSION_COOKIE_SECURE'] = True
 app.config['MAIL_SERVER'] = 'smtp.office365.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'smartpakingsystem@outlook.com'
-app.config['MAIL_PASSWORD'] = 'parkingsystemsecurepassword1234'
+app.config['MAIL_USERNAME'] = 'securefilescan@outlook.com'
+app.config['MAIL_PASSWORD'] = 'EpicStrongPassword2024'
 
 mail = Mail(app)
 
@@ -156,7 +156,7 @@ def generate_verification_code(length=20):
     return verification_code
 
 def send_verification_email(email, verification_code):
-    msg = Message('Verification Code', sender='smartpakingsystem@outlook.com', recipients=[email])
+    msg = Message('Verification Code', sender='securefilescan@outlook.com', recipients=[email])
     msg.body = f'Your verification code is: {verification_code}'
     mail.send(msg)
 

@@ -2051,3 +2051,66 @@ ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
 2024-04-30 02:12:11,864 [INFO] - 127.0.0.1 - - [30/Apr/2024 02:12:11] "GET /static/style.css HTTP/1.1" 200 -
 2024-04-30 02:12:11,885 [INFO] - 127.0.0.1 - - [30/Apr/2024 02:12:11] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
 2024-04-30 02:12:11,893 [INFO] - 127.0.0.1 - - [30/Apr/2024 02:12:11] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-01 16:42:09,549 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-05-01 16:42:09,549 [INFO] - [33mPress CTRL+C to quit[0m
+2024-05-01 16:42:09,557 [INFO] -  * Restarting with stat
+2024-05-01 16:42:10,484 [WARNING] -  * Debugger is active!
+2024-05-01 16:42:10,489 [INFO] -  * Debugger PIN: 589-605-772
+2024-05-01 16:42:16,602 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:16] "GET / HTTP/1.1" 200 -
+2024-05-01 16:42:16,892 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:16] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-01 16:42:16,896 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:16] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 16:42:16,915 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:16] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-01 16:42:16,965 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-01 16:42:18,875 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:18] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:42:18,926 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:42:18,936 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:18] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:42:18,941 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:18] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-01 16:42:33,530 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:33] "POST /login HTTP/1.1" 200 -
+2024-05-01 16:42:33,571 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:42:33,581 [INFO] - 127.0.0.1 - - [01/May/2024 16:42:33] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:43:30,501 [INFO] - 127.0.0.1 - - [01/May/2024 16:43:30] "POST /login HTTP/1.1" 200 -
+2024-05-01 16:43:30,539 [INFO] - 127.0.0.1 - - [01/May/2024 16:43:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:43:30,550 [INFO] - 127.0.0.1 - - [01/May/2024 16:43:30] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:45:16,610 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:16] "POST /login HTTP/1.1" 200 -
+2024-05-01 16:45:16,649 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:45:16,661 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:16] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:45:51,401 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:51] "GET / HTTP/1.1" 200 -
+2024-05-01 16:45:51,465 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:51] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 16:45:51,477 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:51] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-01 16:45:51,485 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:51] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-01 16:45:53,393 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:53] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:45:53,444 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:45:53,455 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:53] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:45:53,460 [INFO] - 127.0.0.1 - - [01/May/2024 16:45:53] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-01 16:46:16,572 [INFO] - 127.0.0.1 - - [01/May/2024 16:46:16] "POST /login HTTP/1.1" 200 -
+2024-05-01 16:46:16,615 [INFO] - 127.0.0.1 - - [01/May/2024 16:46:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:46:16,631 [INFO] - 127.0.0.1 - - [01/May/2024 16:46:16] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:51:30,404 [INFO] - 127.0.0.1 - - [01/May/2024 16:51:30] "GET / HTTP/1.1" 200 -
+2024-05-01 16:51:30,467 [INFO] - 127.0.0.1 - - [01/May/2024 16:51:30] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 16:51:30,485 [INFO] - 127.0.0.1 - - [01/May/2024 16:51:30] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-01 16:51:30,491 [INFO] - 127.0.0.1 - - [01/May/2024 16:51:30] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-01 16:55:56,062 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-05-01 16:55:56,192 [INFO] -  * Restarting with stat
+2024-05-01 16:55:57,295 [WARNING] -  * Debugger is active!
+2024-05-01 16:55:57,299 [INFO] -  * Debugger PIN: 589-605-772
+2024-05-01 16:56:05,756 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-05-01 16:56:05,756 [INFO] - [33mPress CTRL+C to quit[0m
+2024-05-01 16:56:05,758 [INFO] -  * Restarting with stat
+2024-05-01 16:56:06,680 [WARNING] -  * Debugger is active!
+2024-05-01 16:56:06,686 [INFO] -  * Debugger PIN: 589-605-772
+2024-05-01 16:56:09,022 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:09] "GET / HTTP/1.1" 200 -
+2024-05-01 16:56:09,272 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:09] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 16:56:09,282 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:09] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:56:09,287 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:09] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-01 16:56:10,604 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:10] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:56:10,647 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:56:10,658 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:10] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:56:10,663 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:10] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-01 16:56:23,458 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:23] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-05-01 16:56:23,518 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:23] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 16:56:23,535 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:23] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 16:56:23,601 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 16:56:23,645 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 16:56:53,459 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
