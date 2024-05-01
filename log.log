@@ -2114,3 +2114,387 @@ ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
 2024-05-01 16:56:23,601 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 2024-05-01 16:56:23,645 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 2024-05-01 16:56:53,459 [INFO] -  * Detected change in 'C:\\Users\\DELL\\Documents\\Secure-File-Scan\\app.py', reloading
+2024-05-01 16:56:53,587 [INFO] -  * Restarting with stat
+2024-05-01 16:56:54,636 [WARNING] -  * Debugger is active!
+2024-05-01 16:56:54,640 [INFO] -  * Debugger PIN: 589-605-772
+2024-05-01 16:56:57,250 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:57] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:56:57,389 [INFO] - 127.0.0.1 - - [01/May/2024 16:56:57] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 16:57:07,233 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-01 16:57:07,267 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:07] "GET /verification HTTP/1.1" 200 -
+2024-05-01 16:57:07,322 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:57:07,334 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:07] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:57:43,302 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[32mPOST /verification HTTP/1.1[0m" 302 -
+2024-05-01 16:57:43,420 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 16:57:43,482 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,518 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,549 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,567 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,573 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 16:57:43,579 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,592 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,604 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,607 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,615 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:57:43,620 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,650 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,657 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,686 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,698 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,708 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,724 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,736 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,745 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,758 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,768 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,781 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,792 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,796 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,804 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,818 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,822 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,833 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:57:43,864 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:43] "[33mGET /images/favicon.png HTTP/1.1[0m" 404 -
+2024-05-01 16:57:48,757 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-05-01 16:57:48,772 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:48] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:57:48,824 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:57:48,836 [INFO] - 127.0.0.1 - - [01/May/2024 16:57:48] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:59:27,354 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-05-01 16:59:27,354 [INFO] - [33mPress CTRL+C to quit[0m
+2024-05-01 16:59:27,357 [INFO] -  * Restarting with stat
+2024-05-01 16:59:28,314 [WARNING] -  * Debugger is active!
+2024-05-01 16:59:28,319 [INFO] -  * Debugger PIN: 589-605-772
+2024-05-01 16:59:29,833 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:29] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:59:30,059 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:59:30,092 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:30] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:59:41,901 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-01 16:59:41,926 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:41] "GET /verification HTTP/1.1" 200 -
+2024-05-01 16:59:41,989 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:59:41,999 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:41] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:59:54,478 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[32mPOST /verification HTTP/1.1[0m" 302 -
+2024-05-01 16:59:54,512 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "GET /dashboard HTTP/1.1" 200 -
+2024-05-01 16:59:54,664 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,676 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,685 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,696 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 16:59:54,707 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,718 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,726 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,731 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,735 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,744 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 16:59:54,748 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,793 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,801 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,846 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,850 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,870 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,879 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,891 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,907 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,913 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,924 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,929 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,933 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,946 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,960 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,965 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,969 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:59:54,982 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:54] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-05-01 16:59:56,661 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-05-01 16:59:56,676 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:56] "GET /login HTTP/1.1" 200 -
+2024-05-01 16:59:56,728 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-01 16:59:56,739 [INFO] - 127.0.0.1 - - [01/May/2024 16:59:56] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:16:06,148 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5555
+2024-05-01 23:16:06,149 [INFO] - [33mPress CTRL+C to quit[0m
+2024-05-01 23:16:06,150 [INFO] -  * Restarting with stat
+2024-05-01 23:16:07,089 [WARNING] -  * Debugger is active!
+2024-05-01 23:16:07,095 [INFO] -  * Debugger PIN: 215-984-278
+2024-05-01 23:16:17,367 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:17] "GET / HTTP/1.1" 200 -
+2024-05-01 23:16:17,621 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:17] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 23:16:17,639 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:17] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-01 23:16:17,642 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:17] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-01 23:16:17,685 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-01 23:16:24,309 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:24] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:16:24,334 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:16:26,525 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/31edc59683bfd083c95006a895316763 HTTP/1.1" 200 None
+2024-05-01 23:16:26,533 [DEBUG] - Starting new HTTPS connection (1): mb-api.abuse.ch:443
+2024-05-01 23:16:28,078 [DEBUG] - https://mb-api.abuse.ch:443 "POST /api/v1/ HTTP/1.1" 200 40
+2024-05-01 23:16:28,145 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:28] "[35m[1mGET /results/VBA-Reverse-Shell.vba HTTP/1.1[0m" 500 -
+2024-05-01 23:16:28,191 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:28] "GET /results/VBA-Reverse-Shell.vba?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 23:16:28,199 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:28] "GET /results/VBA-Reverse-Shell.vba?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 23:16:28,254 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:28] "GET /results/VBA-Reverse-Shell.vba?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:16:28,284 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:28] "GET /results/VBA-Reverse-Shell.vba?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:16:30,317 [INFO] - 127.0.0.1 - - [01/May/2024 23:16:30] "GET / HTTP/1.1" 200 -
+2024-05-01 23:17:31,238 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:31] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:17:31,258 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:17:32,598 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/0af2be3c0d6948b19f7e67a3565966ea HTTP/1.1" 404 None
+2024-05-01 23:17:32,605 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[32mGET /results/test.py HTTP/1.1[0m" 302 -
+2024-05-01 23:17:32,640 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "GET /noresults HTTP/1.1" 200 -
+2024-05-01 23:17:32,757 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,764 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,773 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,782 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,791 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /style2.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,800 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 23:17:32,803 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,807 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,811 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,816 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,821 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,841 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:17:32,850 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,862 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,873 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,893 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,911 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,917 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,928 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,938 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,946 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,949 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,961 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,964 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,972 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-01 23:17:32,987 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:32] "[33mGET /images/favicon.png HTTP/1.1[0m" 404 -
+2024-05-01 23:17:34,690 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:34] "GET / HTTP/1.1" 200 -
+2024-05-01 23:17:59,578 [INFO] - 127.0.0.1 - - [01/May/2024 23:17:59] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:18:00,502 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:18:02,571 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/17edfb8f14de1df8e3d24c9919171ad4 HTTP/1.1" 404 None
+2024-05-01 23:18:02,576 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[32mGET /results/Subnetting.webm HTTP/1.1[0m" 302 -
+2024-05-01 23:18:02,595 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "GET /noresults HTTP/1.1" 200 -
+2024-05-01 23:18:02,634 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[36mGET /static/style2.css HTTP/1.1[0m" 304 -
+2024-05-01 23:18:02,641 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,650 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,658 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,676 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,685 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,695 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,701 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,711 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,714 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /style2.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,736 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,740 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:18:02,747 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,756 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,761 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,774 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,784 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,796 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,804 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,812 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,820 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,824 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,835 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,849 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:02,852 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:02] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:05,674 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:05] "GET / HTTP/1.1" 200 -
+2024-05-01 23:18:05,704 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:05] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 23:18:05,726 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:05] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-01 23:18:25,709 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:25] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:18:25,730 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:18:27,002 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/c2951f410097f16e502ef085623e8dc2 HTTP/1.1" 404 None
+2024-05-01 23:18:27,005 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[32mGET /results/WhatsApp_Image_2024-04-21_at_23.25.26_e6747c80.jpg HTTP/1.1[0m" 302 -
+2024-05-01 23:18:27,024 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "GET /noresults HTTP/1.1" 200 -
+2024-05-01 23:18:27,067 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 23:18:27,080 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,093 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,100 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,105 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,141 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,150 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,161 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,171 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,173 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /style2.css HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,191 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,202 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,211 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,218 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,222 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:18:27,243 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,253 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,264 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,271 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,274 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,295 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,306 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,317 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,323 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:27,326 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:27] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-01 23:18:39,748 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:39] "GET / HTTP/1.1" 200 -
+2024-05-01 23:18:39,774 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:39] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 23:18:39,793 [INFO] - 127.0.0.1 - - [01/May/2024 23:18:39] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-01 23:19:07,618 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:07] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:19:07,702 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:19:09,300 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/22cee31b95cb8b6a767419a460aaaeb0 HTTP/1.1" 200 None
+2024-05-01 23:19:09,465 [DEBUG] - Starting new HTTPS connection (1): mb-api.abuse.ch:443
+2024-05-01 23:19:11,093 [DEBUG] - https://mb-api.abuse.ch:443 "POST /api/v1/ HTTP/1.1" 200 None
+2024-05-01 23:19:11,202 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:11] "[35m[1mGET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe HTTP/1.1[0m" 500 -
+2024-05-01 23:19:11,243 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:11] "GET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 23:19:11,250 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:11] "GET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 23:19:11,272 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:11] "GET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:19:11,301 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:11] "GET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:19:19,412 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:19] "GET / HTTP/1.1" 200 -
+2024-05-01 23:19:19,444 [INFO] - 127.0.0.1 - - [01/May/2024 23:19:19] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 23:20:08,256 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:08] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:20:08,278 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:20:10,573 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/ac5f78eb678258499cf14f06e7c3c20a HTTP/1.1" 200 None
+2024-05-01 23:20:10,733 [DEBUG] - Starting new HTTPS connection (1): mb-api.abuse.ch:443
+2024-05-01 23:20:11,974 [DEBUG] - https://mb-api.abuse.ch:443 "POST /api/v1/ HTTP/1.1" 200 None
+2024-05-01 23:20:12,008 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:12] "[35m[1mGET /results/37b47855b6e7dac7af7fa051c819199018f8fd06040054bb1c8cdaad64887c40.exe HTTP/1.1[0m" 500 -
+2024-05-01 23:20:12,056 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:12] "GET /results/37b47855b6e7dac7af7fa051c819199018f8fd06040054bb1c8cdaad64887c40.exe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 23:20:12,064 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:12] "GET /results/37b47855b6e7dac7af7fa051c819199018f8fd06040054bb1c8cdaad64887c40.exe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 23:20:12,088 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:12] "GET /results/37b47855b6e7dac7af7fa051c819199018f8fd06040054bb1c8cdaad64887c40.exe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:20:12,119 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:12] "GET /results/37b47855b6e7dac7af7fa051c819199018f8fd06040054bb1c8cdaad64887c40.exe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:20:14,293 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:14] "GET / HTTP/1.1" 200 -
+2024-05-01 23:20:14,323 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:14] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 23:20:23,026 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:23] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:20:23,101 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:20:24,478 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/22cee31b95cb8b6a767419a460aaaeb0 HTTP/1.1" 200 None
+2024-05-01 23:20:24,503 [DEBUG] - Starting new HTTPS connection (1): mb-api.abuse.ch:443
+2024-05-01 23:20:25,827 [DEBUG] - https://mb-api.abuse.ch:443 "POST /api/v1/ HTTP/1.1" 200 None
+2024-05-01 23:20:25,882 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:25] "[35m[1mGET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe HTTP/1.1[0m" 500 -
+2024-05-01 23:20:25,923 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:25] "GET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 23:20:25,930 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:25] "GET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 23:20:25,952 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:25] "GET /results/95ac18eaf1a56e84bb1fdbe10c0f06fff91ce808d45a9359047bdb7267ec8235.exe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:20:29,612 [INFO] - 127.0.0.1 - - [01/May/2024 23:20:29] "GET / HTTP/1.1" 200 -
+2024-05-01 23:21:30,860 [INFO] - 127.0.0.1 - - [01/May/2024 23:21:30] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:21:30,878 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:21:32,868 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/c0dc90c2708c0a9a71ef19cd38c4915f HTTP/1.1" 200 None
+2024-05-01 23:21:32,895 [DEBUG] - Starting new HTTPS connection (1): mb-api.abuse.ch:443
+2024-05-01 23:21:35,070 [DEBUG] - https://mb-api.abuse.ch:443 "POST /api/v1/ HTTP/1.1" 200 5344
+2024-05-01 23:21:35,095 [INFO] - 127.0.0.1 - - [01/May/2024 23:21:35] "[35m[1mGET /results/226d740d4bfa1cf8c36584f56bcd6167e479a05019fb2bff25f65ad48cce402c.exe HTTP/1.1[0m" 500 -
+2024-05-01 23:21:35,137 [INFO] - 127.0.0.1 - - [01/May/2024 23:21:35] "GET /results/226d740d4bfa1cf8c36584f56bcd6167e479a05019fb2bff25f65ad48cce402c.exe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-01 23:21:35,144 [INFO] - 127.0.0.1 - - [01/May/2024 23:21:35] "GET /results/226d740d4bfa1cf8c36584f56bcd6167e479a05019fb2bff25f65ad48cce402c.exe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-01 23:21:35,166 [INFO] - 127.0.0.1 - - [01/May/2024 23:21:35] "GET /results/226d740d4bfa1cf8c36584f56bcd6167e479a05019fb2bff25f65ad48cce402c.exe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:21:35,196 [INFO] - 127.0.0.1 - - [01/May/2024 23:21:35] "GET /results/226d740d4bfa1cf8c36584f56bcd6167e479a05019fb2bff25f65ad48cce402c.exe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-01 23:21:42,720 [INFO] - 127.0.0.1 - - [01/May/2024 23:21:42] "GET / HTTP/1.1" 200 -
+2024-05-01 23:22:34,716 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:34] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:22:34,739 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:22:36,187 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/456a86d30c8506883a00bbafc9ab9ec3 HTTP/1.1" 200 None
+2024-05-01 23:22:36,223 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[32mGET /results/9dc2cde8d123fbc1141cf3e4e47574ec0c7ed6d57e8815a7a5935a4427b803aa.exe HTTP/1.1[0m" 302 -
+2024-05-01 23:22:36,252 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "GET /noresults HTTP/1.1" 200 -
+2024-05-01 23:22:36,369 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,377 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,386 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,394 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,402 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /style2.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,411 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 23:22:36,414 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,418 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,421 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,426 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,430 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,453 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:22:36,461 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,473 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,486 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,497 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,734 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,744 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,753 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,762 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,770 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,778 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,785 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:36,789 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:36] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-01 23:22:42,133 [INFO] - 127.0.0.1 - - [01/May/2024 23:22:42] "GET / HTTP/1.1" 200 -
+2024-05-01 23:23:49,888 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:49] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:23:49,908 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:23:51,168 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/7461a4d8e5908484169049c9d2ceaecd HTTP/1.1" 200 None
+2024-05-01 23:23:51,308 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[32mGET /results/fe01751cf5cbe6528ccc9ea26823545b35d7b606d4c955703c8008f0b4b8b02a.exe HTTP/1.1[0m" 302 -
+2024-05-01 23:23:51,326 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "GET /noresults HTTP/1.1" 200 -
+2024-05-01 23:23:51,469 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,477 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,486 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,494 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,504 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /style2.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,515 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 23:23:51,520 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,524 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,529 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,534 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,538 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,554 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:23:51,573 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,588 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,593 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,625 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,639 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,648 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,652 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,656 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,673 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,680 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,689 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,693 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:51,701 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:51] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-01 23:23:53,984 [INFO] - 127.0.0.1 - - [01/May/2024 23:23:53] "GET / HTTP/1.1" 200 -
+2024-05-01 23:26:14,748 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:14] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:26:14,802 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:26:16,247 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/da753ebcfe793614129fc11890acedbc HTTP/1.1" 200 None
+2024-05-01 23:26:16,263 [DEBUG] - Starting new HTTPS connection (1): mb-api.abuse.ch:443
+2024-05-01 23:26:17,455 [DEBUG] - https://mb-api.abuse.ch:443 "POST /api/v1/ HTTP/1.1" 200 7237
+2024-05-01 23:26:17,476 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "GET /results/c6fbd6896d162a12d9c900056781eb82f44649945808b7b009646b5397bcf6bf.elf HTTP/1.1" 200 -
+2024-05-01 23:26:17,630 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,640 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,650 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,660 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,681 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 23:26:17,684 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,689 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,696 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,703 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,707 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,720 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:26:17,734 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /results/images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,745 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[35m[1mGET /results/style2.css HTTP/1.1[0m" 500 -
+2024-05-01 23:26:17,752 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,773 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,791 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,802 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,813 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,817 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,833 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,841 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,849 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,852 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,863 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-01 23:26:17,882 [INFO] - 127.0.0.1 - - [01/May/2024 23:26:17] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:27:02,922 [INFO] - 127.0.0.1 - - [01/May/2024 23:27:02] "GET / HTTP/1.1" 200 -
+2024-05-01 23:27:02,957 [INFO] - 127.0.0.1 - - [01/May/2024 23:27:02] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-01 23:27:02,981 [INFO] - 127.0.0.1 - - [01/May/2024 23:27:02] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-01 23:28:35,442 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:35] "[32mPOST /home HTTP/1.1[0m" 302 -
+2024-05-01 23:28:35,464 [DEBUG] - Starting new HTTPS connection (1): www.virustotal.com:443
+2024-05-01 23:28:37,498 [DEBUG] - https://www.virustotal.com:443 "GET /api/v3/files/0a5de1ec3faa4f2740be8f2f728d39aa HTTP/1.1" 200 None
+2024-05-01 23:28:37,514 [DEBUG] - Starting new HTTPS connection (1): mb-api.abuse.ch:443
+2024-05-01 23:28:39,305 [DEBUG] - https://mb-api.abuse.ch:443 "POST /api/v1/ HTTP/1.1" 200 3427
+2024-05-01 23:28:39,310 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "GET /results/93c34e6633b446533b78e27b96b175247dbf80d1d4a2f825933a69dece48aba6.php HTTP/1.1" 200 -
+2024-05-01 23:28:39,456 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,464 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,474 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,484 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,503 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-01 23:28:39,506 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,511 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,515 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,520 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,525 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,544 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-01 23:28:39,562 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /results/images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,567 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,574 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[35m[1mGET /results/style2.css HTTP/1.1[0m" 500 -
+2024-05-01 23:28:39,590 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,625 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,631 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,648 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,663 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,677 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,688 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,695 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,699 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,709 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:39,713 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:39] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-01 23:28:48,397 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:48] "GET / HTTP/1.1" 200 -
+2024-05-01 23:28:48,424 [INFO] - 127.0.0.1 - - [01/May/2024 23:28:48] "GET /static/style.css HTTP/1.1" 200 -
