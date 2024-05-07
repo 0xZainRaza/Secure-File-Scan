@@ -2606,3 +2606,171 @@ ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2427)
 2024-05-07 20:36:40,884 [INFO] - 192.168.0.109 - - [07/May/2024 20:36:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2024-05-07 20:36:40,992 [INFO] - 192.168.0.109 - - [07/May/2024 20:36:40] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
 2024-05-07 20:36:41,024 [INFO] - 192.168.0.109 - - [07/May/2024 20:36:41] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-07 20:41:43,776 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.0.106:443
+2024-05-07 20:41:43,777 [INFO] - [33mPress CTRL+C to quit[0m
+2024-05-07 20:41:43,785 [INFO] -  * Restarting with stat
+2024-05-07 20:41:45,014 [WARNING] -  * Debugger is active!
+2024-05-07 20:41:45,019 [INFO] -  * Debugger PIN: 215-984-278
+2024-05-07 20:41:47,976 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:47] "GET / HTTP/1.1" 200 -
+2024-05-07 20:41:48,288 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:48] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-07 20:41:48,358 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:48] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-07 20:41:48,388 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:48] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-07 20:41:54,472 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:54] "GET / HTTP/1.1" 200 -
+2024-05-07 20:41:54,515 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-07 20:41:54,526 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:54] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 20:41:59,344 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:59] "GET / HTTP/1.1" 200 -
+2024-05-07 20:41:59,385 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-07 20:41:59,398 [INFO] - 192.168.0.106 - - [07/May/2024 20:41:59] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:40:30,728 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:30] "GET / HTTP/1.1" 200 -
+2024-05-07 21:40:30,776 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:30] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-07 21:40:30,784 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:30] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-07 21:40:30,792 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:30] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-07 21:40:31,997 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:31] "GET / HTTP/1.1" 200 -
+2024-05-07 21:40:32,035 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-07 21:40:32,048 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:32] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:40:40,139 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:40] "GET /login HTTP/1.1" 200 -
+2024-05-07 21:40:40,191 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-07 21:40:40,199 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:40] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:40:40,395 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:40] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-07 21:40:56,051 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:56] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-05-07 21:40:56,183 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:56] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-07 21:40:56,240 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:56] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-07 21:40:56,321 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-07 21:40:56,360 [INFO] - 192.168.0.106 - - [07/May/2024 21:40:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-07 21:41:04,266 [INFO] - 192.168.0.106 - - [07/May/2024 21:41:04] "GET /login HTTP/1.1" 200 -
+2024-05-07 21:41:04,307 [INFO] - 192.168.0.106 - - [07/May/2024 21:41:04] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-07 21:41:04,328 [INFO] - 192.168.0.106 - - [07/May/2024 21:41:04] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-07 21:41:04,343 [INFO] - 192.168.0.106 - - [07/May/2024 21:41:04] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-07 21:46:39,140 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:39] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-05-07 21:46:39,203 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:39] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-07 21:46:39,212 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:39] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-07 21:46:39,258 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:39] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-07 21:46:39,305 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:39] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-07 21:46:42,324 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:42] "GET /login HTTP/1.1" 200 -
+2024-05-07 21:46:42,371 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:42] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-07 21:46:42,390 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:42] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-07 21:46:42,393 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:42] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-07 21:46:52,460 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://192.168.0.106:443
+2024-05-07 21:46:52,461 [INFO] - [33mPress CTRL+C to quit[0m
+2024-05-07 21:46:52,464 [INFO] -  * Restarting with stat
+2024-05-07 21:46:54,184 [WARNING] -  * Debugger is active!
+2024-05-07 21:46:54,189 [INFO] -  * Debugger PIN: 215-984-278
+2024-05-07 21:46:57,758 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:57] "GET / HTTP/1.1" 200 -
+2024-05-07 21:46:58,040 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:58] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:46:58,056 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-07 21:46:58,070 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:58] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-07 21:46:59,170 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:59] "GET /login HTTP/1.1" 200 -
+2024-05-07 21:46:59,211 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-07 21:46:59,225 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:59] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:46:59,237 [INFO] - 192.168.0.106 - - [07/May/2024 21:46:59] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+2024-05-07 21:57:12,943 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-05-07 21:57:13,094 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:13] "GET /verification HTTP/1.1" 200 -
+2024-05-07 21:57:13,184 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-07 21:57:13,188 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:13] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-07 21:57:13,241 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:13] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-07 21:57:36,749 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:36] "[32mPOST /verification HTTP/1.1[0m" 302 -
+2024-05-07 21:57:36,938 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:36] "GET /dashboard HTTP/1.1" 200 -
+2024-05-07 21:57:37,076 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,087 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,096 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,107 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-07 21:57:37,117 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,135 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,138 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,143 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,147 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,154 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:57:37,157 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,182 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,190 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,196 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,200 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,212 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,224 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,234 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,240 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,246 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,263 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,273 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,280 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,287 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,301 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,541 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,569 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:37,580 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:37] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:38,460 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:38] "[33mGET /images/favicon.png HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,126 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "GET /updatesignature HTTP/1.1" 200 -
+2024-05-07 21:57:51,327 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,339 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/select2/select2.min.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,351 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/select2-bootstrap-theme/select2-bootstrap.min.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,366 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "GET /static/style2.css HTTP/1.1" 200 -
+2024-05-07 21:57:51,383 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,400 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,405 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,409 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,416 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,421 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,432 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "GET /static/logo2a.png HTTP/1.1" 200 -
+2024-05-07 21:57:51,447 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,458 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,484 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,497 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,519 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,536 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/typeahead.js/typeahead.bundle.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,548 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/select2/select2.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,562 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,569 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,584 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,603 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,627 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,632 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,637 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/file-upload.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,647 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/typeahead.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,659 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /js/select2.js HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,672 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,678 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:57:51,692 [INFO] - 192.168.0.106 - - [07/May/2024 21:57:51] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,752 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "GET /dashboard HTTP/1.1" 200 -
+2024-05-07 21:58:08,877 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /vendors/css/vendor.bundle.base.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,887 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /vendors/datatables.net-bs4/dataTables.bootstrap4.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,894 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /js/select.dataTables.min.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,904 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[36mGET /static/style2.css HTTP/1.1[0m" 304 -
+2024-05-07 21:58:08,915 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /vendors/feather/feather.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,925 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /vendors/mdi/css/materialdesignicons.min.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,940 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /vendors/ti-icons/css/themify-icons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,943 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /vendors/typicons/typicons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,947 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1[0m" 404 -
+2024-05-07 21:58:08,955 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:58:08,956 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:08] "[33mGET /images/faces/face8.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,027 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /vendors/js/vendor.bundle.base.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,037 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,048 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /vendors/chart.js/chart.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,056 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /images/faces/face1.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,066 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /images/faces/face2.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,073 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /images/faces/face3.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,088 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /vendors/progressbar.js/progressbar.min.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,098 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /js/settings.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,107 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /js/todolist.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,115 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /js/off-canvas.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,119 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /js/hoverable-collapse.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,127 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /js/template.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,143 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /js/jquery.cookie.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,150 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /js/dashboard.js HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,161 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /images/faces/face4.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,172 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /images/faces/face5.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:09,184 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:09] "[33mGET /images/faces/face6.jpg HTTP/1.1[0m" 404 -
+2024-05-07 21:58:11,215 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-05-07 21:58:11,230 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:11] "GET /login HTTP/1.1" 200 -
+2024-05-07 21:58:11,297 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:11] "GET /static/style.css HTTP/1.1" 200 -
+2024-05-07 21:58:11,315 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:11] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:58:11,321 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:11] "GET /static/background.jpg HTTP/1.1" 200 -
+2024-05-07 21:58:15,135 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:15] "GET / HTTP/1.1" 200 -
+2024-05-07 21:58:15,174 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-05-07 21:58:15,184 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:15] "[36mGET /static/logo2a.png HTTP/1.1[0m" 304 -
+2024-05-07 21:58:15,191 [INFO] - 192.168.0.106 - - [07/May/2024 21:58:15] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
