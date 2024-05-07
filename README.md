@@ -84,11 +84,6 @@ Ensure you have Python3.10 or above along with these libraries:
 - subprocess
 - logging
 
-#### install
-
-Install the required Python libraries using the following command:
-
-    pip install -r requirements.txt
 
 
 
@@ -101,6 +96,7 @@ To use the Secure File Scan project, follow these steps:
    ```bash
    git clone https://github.com/0xZainRaza/secure-file-scan.git
    cd secure-file-scan
+   docker build .
    python app.py
 
 
