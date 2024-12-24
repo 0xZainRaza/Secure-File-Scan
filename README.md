@@ -95,10 +95,9 @@ To use the Secure File Scan project, follow these steps:
 
    ```bash
    git clone https://github.com/0xZainRaza/secure-file-scan.git
-   cd secure-file-scan
-   docker build .
-   python app.py
-
+   cd Secure-file-scan
+   docker build . my-web-app
+   docker run -d -p 443:443 --name Secure-file-scan my-web-app
 
 # API Reference
 
