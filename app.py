@@ -26,9 +26,6 @@ logging.basicConfig(filename='log.log', level=logging.DEBUG, format='%(asctime)s
 
 REQUEST_COUNT = Counter('request_count', 'Total number of requests')
 
-@app.before_request
-def before_request():
-    REQUEST_COUNT.inc()
 
 app = Flask(__name__)
 bcrypt = Bcrypt(app)
@@ -46,6 +43,12 @@ app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'securefilescan@outlook.com'
 app.config['MAIL_PASSWORD'] = 'EpicStrongPassword2024'
+
+@app.before_request
+def before_request():
+    REQUEST_COUNT.inc()
+
+
 
 mail = Mail(app)
 
