@@ -6,3 +6,4 @@ flask_bcrypt
 requests
 flask_mail
 email_validator
+prometheus_client
