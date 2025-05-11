@@ -4,6 +4,7 @@ from flask_login import UserMixin, login_user, login_manager, login_required, lo
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField ,FileField
 from wtforms.validators import InputRequired, Length, ValidationError, Email, EqualTo
+from prometheus_client import start_http_server, Counter
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 from werkzeug.utils import secure_filename
@@ -23,6 +24,11 @@ import string
 
 logging.basicConfig(filename='log.log', level=logging.DEBUG, format='%(asctime)s [%(levelname)s] - %(message)s')
 
+REQUEST_COUNT = Counter('request_count', 'Total number of requests')
+
+@app.before_request
+def before_request():
+    REQUEST_COUNT.inc()
 
 app = Flask(__name__)
 bcrypt = Bcrypt(app)
@@ -571,4 +577,3 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
-
