@@ -7,3 +7,4 @@ requests
 flask_mail
 email_validator
 prometheus_client
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
