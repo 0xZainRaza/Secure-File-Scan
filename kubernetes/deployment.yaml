@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: mongodb-deployment
+  labels:
+    app: mongodb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb
+  template:
+    metadata:
+      labels: 
+        app: mongodb
+    spec:
+      containers:
+      - name: mongodb
+        image: mongo:4.4
+        ports:
+        - containerPort: 27017
+--- 
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: Secure-File-Scan-deployment
+  labels:
+    app: Secure-File-Scan
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Secure-File-Scan
+  template:
+    metadata:
+      labels: 
+        app: Secure-File-Scan
+    spec:
+      containers:
+      - name: Secure-File-Scan
+        image: 0xzainraza/pakmall:latest
+        ports:
+        - containerPort: 4000
